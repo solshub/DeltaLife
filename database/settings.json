@@ -1,0 +1,27 @@
+[
+	{
+		"set": "toggleAll",
+		"name": "Enable non-actions",
+		"desc": "Disable this if you only want me for interactions (like `!slap` or `!hug`) and nothing more. This will disable all other commands."
+	},
+	{
+		"set": "profilePic",
+		"name": "Custom pictures",
+		"desc": "Whether players can set their on pictures and have them shown in their profiles. There's **no filter** in what may the image content be."
+	},
+	{
+		"set": "toggleNsfw",
+		"name": "Family-friendly",
+		"desc": "If you want to be truly SFW, you can fully disable any erotic (`!sex`) or violence (`!murder`, `!stab`) related action."
+	},
+	{
+		"set": "ageLimit",
+		"name": "Age limitations",
+		"desc": "Whether if romantic actions can be disabled based on the player's age and general thoughts on the legal age of consent."
+	},
+	{
+		"set": "toggleKill",
+		"name": "Players can kill",
+		"desc": "Whether players have a chance to kill each other with `!kill`."
+	}
+]

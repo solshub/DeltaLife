@@ -1,0 +1,803 @@
+[
+	{
+		"msg": "It's your birthday, you just reached home late and is feeling really tired. But then, surprise! Your friends have set up a surprise party for you!",
+		"msgBr": "É seu aniversário, você chegou tarde em casa e está cansado. Mas aí, surpresa! Seus amigos organizaram uma festa surpresa pra você!",
+		"choices": [
+			{ "msg": "enjoy the party",
+				"msgBr": "aproveite a festa",
+				"effects": { "happy": 10, "social": 10 },
+				"done": "You had an amazing time with friends!",
+				"doneBr": "Você teve um tempo incrível com amigos!" },
+			{ "msg": "let them party while you rest in your bedroom",
+				"msgBr": "deixe festejarem enquanto você descansa",
+				"effects": { "happy": 5, "social": 5 },
+				"done": "It was hard to sleep with all the noise.",
+				"doneBr": "Foi dificil dormir com tanto barulho." },
+			{ "msg": "send them away",
+				"msgBr": "mande-os embora",
+				"effects": { "happy": 5, "social": -10 },
+				"done": "They all went away, with a sad look on their faces.",
+				"doneBr": "Eles foram embora, todos parecendo tristes." }
+		],
+		"age": { "min": 10 }
+	},
+	{
+		"msg": "A friend is calling you take a walk on the park with him.",
+		"msgBr": "Um amigo está te chamando para dar um passeio pelo parque.",
+		"choices": [
+			{ "msg": "spend some time with him",
+				"msgBr": "passe um tempo com ele",
+				"effects": { "happy": 10, "social": 10, "health": 5 },
+				"done": "That walk got you feeling pretty healthy!",
+				"doneBr": "A caminhada te deixou sentindo saudável" },
+			{ "msg": "make an excuse",
+				"msgBr": "invente uma desculpa",
+				"effects": { "happy": 5, "social": 5 },
+				"done": "You said you had an important appointment, and he understood.",
+				"doneBr": "Você disse que tinha um compromisso, e ele entendeu."  },
+			{ "msg": "deny it",
+				"msgBr": "negue",
+				"effects": { "happy": 5, "social": -5 },
+				"done": "You got your friend pretty bummed up.",
+				"doneBr": "Seu amigo ficou bem chateado." }
+		],
+		"age": { "min": 10 }
+	},
+	{
+		"msg": "Some random beggar asked you for money, you gave him your extra change, but then he asked for more.",
+		"msgBr": "Um mendigo qualquer te pediu por dinheiro, você deu alguns trocados, mas ele pediu por mais.",
+		"choices": [
+			{ "msg": "give him a few dollars",
+				"msgBr": "dê mais alguns trocados",
+				"effects": { "happy": -5, "social": 10, "smarts": -10 },
+				"done": "He got really happy and thanked you a lot for being so generous!",
+				"doneBr": "Ele ficou muito feliz e te agradeceu por ser tão generoso!"  },
+			{ "msg": "say you haven't got more money",
+				"msgBr": "diga que não tem mais dinheiro",
+				"effects": { "smarts": 5 },
+				"done": "He ignored you and went on with his life.",
+				"doneBr": "Ele te ignorou e continuou com sua vida." },
+			{ "msg": "get offended and call him stupid",
+				"msgBr": "fique ofendido e o xingue",
+				"effects": { "happy": 10, "social": -5 },
+				"done": "He caled you names in a low tone, and then went away.",
+				"doneBr": "Ele te xingou com a voz baixa, e depois foi embora." }
+		],
+		"age": { "min": 10 }
+	},
+	{
+		"msg": "You just received the news your best friend died in a car accident.",
+		"msgBr": "Você recebeu a notícia de que seu melhor amigo morreu em um acidente de trânsito.",
+		"choices": [
+			{ "msg": "try not to think about it",
+				"msgBr": "tente não pensar sobre isso",
+				"effects": { "happy": -10 },
+				"done": "You did your best trying not to think about it.",
+				"doneBr": "Você tentou o máximo que pode não pensar sobre." },
+			{ "msg": "cry a lot",
+				"msgBr": "chore muito",
+				"effects": { "happy": -15 },
+				"done": "You couldn't hold up the tears..." ,
+				"doneBr": "Você não conseguiu segurar suas lágrimas."},
+			{ "msg": "pay your condolences to the family",
+				"msgBr": "pague condolências à família",
+				"effects": { "happy": -5, "social": 5 },
+				"done": "You attended the funeral and paid your condolences to his parents. You helped each other feel a little better.",
+				"doneBr": "Você foi ao funeral e pagou condolências aos pais deles. Vocês se ajudaram a se sentirem um pouco melhor." }
+		],
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "An old friend of you, who ended up becoming a homeless junkie, is now asking if he could stay at your house for a night.",
+		"msgBr": "Um antigo amigo seu, que acabou se tornando um viciado desabrigado, agora está te perguntando se poderia passar a noite na sua casa.",
+		"choices": [
+			{ "msg": "accept but make it clear: \"no drugs\"",
+				"msgBr": "aceite, mas deixe claro: \"nada de drogas\"",
+				"effects": { "happy": 10, "social": 5 },
+				"done": "Your friend accepted your terms. You two had some fun, it all ended up nice.",
+				"doneBr": "Seu amigo aceitou os termos. Vocês dois se divertiram, tudo acabou bem." },
+			{ "msg": "let he stay",
+				"msgBr": "deixe ele ficar",
+				"effects": { "happy": -5, "social": 10, "health": -10 },
+				"done": "He ended up smoking weed at your living room. It smells really bad.",
+				"doneBr": "Ele acabou fumando maconha na sua sala de estar. Ela está fedida." },
+			{ "msg": "tell him to ask someone else",
+				"msgBr": "diga para que ele peça a outra pessoa",
+				"effects": { "happy": -5, "social": -10 },
+				"done": "He called you names before going away.",
+				"doneBr": "Ele te xingou antes de ir embora." }
+		],
+		"age": { "min": 18 }
+	},
+	{
+		"msg": "You just had your first real kiss, it felt amazing!",
+		"msgBr": "Você acabou de dar seu primeiro beijo de verdade, foi incrível!",
+		"effects": { "happy": 10, "social": 10 },
+		"age": { "min": 12, "max": 18 }
+	},
+	{
+		"msg": "You just kissed someone really nice, but... It's mouth tasted like something so horrible you can't even describe!",
+		"msgBr": "Você beijou alguém legal, mas... A boca da pessoa tinha um gosto tão ruim que você não consegue nem descrever!",
+		"effects": { "happy": -10, "social": 10 },
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "Your dentist said that you really need to floss more.",
+		"msgBr": "Seu destinsta disse que você realmente precisa usar mais o fio dental.",
+		"choices": [
+			{ "msg": "take the advice",
+				"msgBr": "aceite o conselho",
+				"effects": { "looks": 5, "health": 10 },
+				"done": "That was the right choice.",
+				"doneBr": "Essa foi a escolha certa." },
+			{ "msg": "ignore the advice",
+				"msgBr": "ignore o conselho",
+				"effects": { "health": -10 },
+				"done": "You later had to come back, cause your teeth started to ache.",
+				"doneBr": "Você depois teve que voltar, porque seus dentes começaram a doer." },
+			{ "msg": "tell him flossing's for dummies",
+				"msgBr": "diga que fio dental é besteira",
+				"effects": {"looks": -5, "health": -10 },
+				"done": "He replied you're a dummie for not flossing. Later, your teeth started aching but you were to shy to come back to him.",
+				"doneBr": "Ele respondeu que você é besta por não usar fio dental. Depois, seus dentes começaram a doer, mas você estava com vergonha demais pra voltar ao consultório." }
+		],
+		"age": { "min": 8, "max": 60 }
+	},
+	{
+		"msg": "Your parents left you home alone for the night! It's time to have some fun! What should you do first?...",
+		"msgBr": "Seus pais te deixaram sozinho pela noite! É hora de se divertir! O que você deve fazer primeiro?...",
+		"choices": [
+			{ "msg": "walk around naked",
+				"msgBr": "ande por aí sem roupa",
+				"effects": { "happy": 10 },
+				"done": "Ah... There's nothing better than walking around without having to bear the weight of clothes.",
+				"doneBr": "Ah... Nada melhor do que andar por aí sem ter que sentir o peso das roupas." },
+			{ "msg": "watch a horror movie",
+				"msgBr": "assista um filme de terror",
+				"effects": { "happy": -10 },
+				"done": "What was you even thinking? That was a terrible decision!",
+				"doneBr": "O que você estava pensando? Essa foi uma decisão horrível!" },
+			{ "msg": "just chill",
+				"msgBr": "apenas aproveite",
+				"effects": { "happy": 10 },
+				"done": "You gave yourself a nice time.",
+				"doneBr": "Você se deu um tempo divertido." }
+		],
+		"age": { "min": 8, "max": 18 }
+	},
+	{
+		"msg": "The final boss of a videogame is getting you really pissed! You already lost 40 times!",
+		"msgBr": "O boss final de um videogame está te deixando muito irritado! Você já perdeu 40 vezes!",
+		"choices": [
+			{ "msg": "hit something",
+				"msgBr": "bata em alguma coisa",
+				"effects": { "happy": -5, "health": 10 },
+				"done": "Your hit your keyboard really hard! The keycaps went flying away, but at least you feel relieved.",
+				"doneBr": "Você bateu forte no seu teclado! As teclas saíram voando, mas pelo menos você está aliviado." },
+			{ "msg": "git gud or die trying",
+				"msgBr": "tente até conseguir",
+				"effects": { "happy": 15, "health": -5 },
+				"done": "You did it! You finally did it! But... you're feeling so stressed that you really need to take a rest now.",
+				"doneBr": "Você conseguiu! Você finalmente conseguiu! Mas... você está tão cansado que realmente precisa descansar agora." },
+			{ "msg": "give up",
+				"msgBr": "desista",
+				"effects": { "happy": -15, "health": 5 },
+				"done": "You did what was best for you. But still... you're feeling really sad for it.",
+				"doneBr": "Você fez o que era melhor pra você. Mas mesmo assim... você está triste por causa disso." }
+		],
+		"age": { "min": 8 }
+	},
+	{
+		"msg": "You found two movie tickets while walking on the street. They're for the new release, Bronze Man 4.",
+		"msgBr": "Você achou dois ingressos de cinema enquanto andava pela rua. Eles são para o novo lançamento, Homem de Bronze 4",
+		"choices": [
+			{ "msg": "watch the movie twice",
+				"msgBr": "assista duas vezes",
+				"effects": { "happy": 15, "social": -5 },
+				"done": "Definitely worth it. It was probably the best movie of your life.",
+				"doneBr": "Definitivamente valeu a pena. Foi provavelmente o melhor filme da sua vida." },
+			{ "msg": "call a friend",
+				"msgBr": "chame um amigo",
+				"effects": { "happy": 10, "social": 10 },
+				"done": "You had some nice time with your friend! The movie was amazing.",
+				"doneBr": "Você teve um tempo ótimo com seu amigo! O filme foi incrível." },
+			{ "msg": "leave them",
+				"msgBr": "deixe-os aí",
+				"effects": { "smarts": 5 },
+				"done": "You left them for someone else.",
+				"doneBr": "Você os deixou para outra pessoa." }
+		],
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "You're thinking about getting a new haircut...",
+		"msgBr": "Você está pensando em ter um novo corte de cabelo...",
+		"choices": [
+			{ "msg": "take care of that",
+				"msgBr": "faça isso",
+				"effects": { "happy": 10, "looks": 10 },
+				"done": "You were right about your thoughts. Your hair is way better now.",
+				"doneBr": "Você estava certo. Seu cabelo está muito melhor agora." },
+			{ "msg": "go crazy with it",
+				"msgBr": "faça isso o melhor que puder",
+				"effects": { "happy": 10, "social": 5, "looks": 15 },
+				"done": "You went crazy with it! Now your hair is in a different color and you're looking lit.",
+				"doneBr": "Você foi muito longe com a ideia! Agora seu cabelo está de outra cor e você está incrível." },
+			{ "msg": "forget about it",
+				"msgBr": "esqueça essa ideia",
+				"effects": { "looks": -10 },
+				"done": "You left the idea behind. You think your hair is just fine the way it is.",
+				"doneBr": "Você deixou pra lá. Você acha que o seu cabelo está bom do jeito que está." }
+		],
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "You really want to buy some ice cream from the truck, but your parents are denying to give you money.",
+		"msgBr": "Você realmente quer comprar sorvete do carrinho, mas seus pais estão negando te darem dinheiro.",
+		"effects": { "happy": -10 },
+		"age": { "min": 8, "max": 14 }
+	},
+	{
+		"msg": "Your parents took you to vacination... Everything is really scary and the doctor is getting really close!",
+		"msgBr": "Seu pais te levaram para a vacinação... Tudo é muito assustador e o doutor está chegando muito perto!",
+		"choices": [
+			{ "msg": "cry very loud",
+				"msgBr": "chore muito alto",
+				"effects": { "happy": -10, "smarts": -10 },
+				"done": "You cried and you cried and you cried! Until finally you got out of that place.",
+				"doneBr": "Você chorou e chorou e chorou! Até que finalmente saiu daquele lugar." },
+			{ "msg": "stay as calm as you can",
+				"msgBr": "fique o mais calmo que puder",
+				"effects": { "happy": -10, "smarts": 10, "health": 5 },
+				"done": "You tried your best to stay calm... It didn't take long and was soon over.",
+				"doneBr": "Você tentou seu melhor para ficar calmo... Não demorou muito, e logo acabou." }
+		],
+		"age": { "max": 8 }
+	},
+	{
+		"msg": "There this funny looking man making weird faces in front of you and repeating \"papa\".",
+		"msgBr": "Tem um homem engraçado na sua frente, fazendo caras estranha e repetindo \"papai\"",
+		"choices": [
+			{ "msg": "try to say the same",
+				"msgBr": "tente dizer o mesmo",
+				"effects": { "happy": 10, "smarts": 10 },
+				"done": "For some reason, he got really happy when you did it!",
+				"doneBr": "Por alguma razão, ele ficou muito feliz quando você conseguiu!" },
+			{ "msg": "laugh at him",
+				"msgBr": "dê risada dele",
+				"effects": { "happy": 15 },
+				"done": "You laughed at him, it got him making even funnier faces!",
+				"doneBr": "Você riu dele, e ele começou a fazer caras ainda mais engraçadas!" }
+		],
+		"age": { "max": 8 }
+	},
+	{
+		"msg": "This funny looking woman just served you a tray of colored things, she's trying to put some of it in your mouth.",
+		"msgBr": "Essa mulher engraçada te serviu um prato de coisas coloridas, ela está tentando colocar um pouco na sua boca.",
+		"choices": [
+			{ "msg": "let her",
+				"msgBr": "deixe ela colocar",
+				"effects": { "happy": 5, "smarts": 5 },
+				"done": "When it reached your mouth, you noticed it tastes delicious!",
+				"doneBr": "Quando chegou na sua boca, você percebeu que o sabor é delicioso!" },
+			{ "msg": "hit the spoon",
+				"msgBr": "bata na colher",
+				"effects": { "happy": 10, "smarts": -5 },
+				"done": "It was so funny! Now you're full of colored things! But the woman looks kinda mad...",
+				"doneBr": "Foi tão divertido! Agora você está cheio de coisas coloridas! Mas a mulher parece meio brava..." }
+		],
+		"age": { "max": 8 }
+	},
+	{
+		"msg": "They took you to a wet place! There's a funny looking duck in the water, but you're hating how they're trying to wash you!",
+		"msgBr": "Eles te levaram pra um lugar molhado! Tem um patinho engraçado na água, mas você está odiando como eles estão tentando te lavar!",
+		"choices": [
+			{ "msg": "let them wash you",
+				"msgBr": "deixe eles te lavarem",
+				"effects": { "happy": -5, "looks": 5, "smarts": 5 },
+				"done": "You let them wash you clean... It was all very hard, but you're feeling better now.",
+				"doneBr": "Você deixou eles te levaram... Foi muito difícil, mas agora você está se sentindo melhor." },
+			{ "msg": "try to escape",
+				"msgBr": "tente escapar",
+				"effects": { "smarts": -10, "looks": -10 },
+				"done": "You tried your best to escape the bowl of water! They kept bringing you back, and everything is wet now!",
+				"doneBr": "Você tentou seu melhor para escapar da bacia de água! Eles continuaram te trazendo devolta, e agora tudo está molhado." },
+			{ "msg": "try to learn with it",
+				"msgBr": "tente aprender com isso",
+				"effects": { "happy": -5, "smarts": 10, "looks": 10 },
+				"done": "You trying to stay calm and pay attention to what was happening...",
+				"doneBr": "Você tentou ficar calmo e prestar atenção no que estava acontecendo..." }
+		],
+		"age": { "max": 8 }
+	},
+	{
+		"msg": "It's late night, everything is quiet, but you can't fall asleep no matter how hard you try.",
+		"msgBr": "É tarde da noite, tudo está quieto, mas você não consegue dormir não importa o quanto tente.",
+		"choices": [
+			{ "msg": "keep trying",
+				"msgBr": "continue tentando",
+				"effects": { "happy": -10 },
+				"done": "You kept on trying... For a really long time.",
+				"doneBr": "Você continuou tentando... Por muito tempo." },
+			{ "msg": "go sleep with your parents",
+				"msgBr": "vá dormir com seus pais",
+				"effects": { "happy": 10 },
+				"done": "Your parents received you with much care in their beds. You had good dreams.",
+				"doneBr": "Seus parentes te receberam com muito carinho na cama deles. Você teve bons sonhos." }
+		],
+		"age": { "max": 12 }
+	},
+	{
+		"msg": "Your parents are trying to fit you this weird tight outfit. It's annoying you a lot, and they keep you saying for you to be careful with it.",
+		"msgBr": "Seus pais estão tentando te colocar nessa roupa estranha apertada. Está te incomodando muito, e eles continuando que dizendo pra que você tome cuidado com ela.",
+		"choices": [
+			{ "msg": "take off your clothes",
+				"msgBr": "tire sua roupa",
+				"effects": { "happy": 10, "smarts": -5, "looks": -5 },
+				"done": "You took off the troubling outfit and went to play with your toys.",
+				"doneBr": "Você tirou a roupa apertada e foi brincar com seus brinquedos." },
+			{ "msg": "be obedient and get along with it",
+				"msgBr": "seja obediente e se acostume",
+				"effects": { "smarts": 10, "looks": 5 },
+				"done": "You trying to ignore how much it annoyed you. Your parents rewarded you ice cream.",
+				"doneBr": "Você tentou ignorar o quanto aquilo te incomodava. Seus pais te recompensaram com sorvete." }
+		],
+		"age": { "max": 10 }
+	},
+	{
+		"msg": "Your parents bought you new clothes. You're feeling bored and it's raining outside... The rain looks like fun.",
+		"msgBr": "Seus pais te comparam roupas novas. Você está entediado e está chovendo lá fora... A chuva parece divertida.",
+		"choices": [
+			{ "msg": "play in the rain",
+				"msgBr": "brinque na chuva",
+				"effects": { "happy": 10, "smarts": -5 },
+				"done": "You went to have some fun outside! Your clothes are ruined, but it was worth it.",
+				"doneBr": "Você foi se divertir lá fora! A roupa está acabada, mas valeu a pena." },
+			{ "msg": "find something else to do",
+				"msgBr": "ache outra coisa pra fazer",
+				"effects": { "smarts": 5, "looks": 5 },
+				"done": "You went to watch some cartoons. Eventually you forgot about the rain.",
+				"doneBr": "Você foi assistir desenhos. Eventualmente você esqueceu sobre a chuva." }
+		],
+		"age": { "max": 12 }
+	},
+	{
+		"msg": "You want to have some fun! You opened your chest of toys, and stared at it's content trying to choose what to play with.",
+		"msgBr": "Você quer se divertir! Você abriu seu baú de brinquedos, e o encarou, tentando escolher com o que brincar.",
+		"choices": [
+			{ "msg": "play with a toy truck",
+				"msgBr": "brinque com um caminhãozinho",
+				"effects": { "happy": 10 } },
+			{ "msg": "play with dolls",
+				"msgBr": "brinque com bonecas",
+				"effects": { "happy": 5, "social": 5 } },
+			{ "msg": "play with building blocks",
+				"msgBr": "brinque com bloquinhos",
+				"effects": { "happy": 5, "smarts": 5 } },
+			{ "msg": "forget about it and play some mobile games",
+				"msgBr": "esqueça o baú e vá jogar jogos de celular",
+				"effects": { "happy": 5, "smarts": 5 } }
+		],
+		"age": { "min": 3, "max": 12 }
+	},
+	{
+		"msg": "After you denying to eat your greens, your mom hid vegetables in your food! You only found out after having finished eating it.",
+		"msgBr": "Depois de negar comer seus vegetais, sua mãe escondeu vegetais na sua comida! Você apenas descobriu depois de terminar de comer.",
+		"effects": { "happy": -10, "health": 5 },
+		"age": { "max": 14 }
+	},
+	{
+		"msg": "Your teacher took your exam after noticing you trying to cheat from your best friend. Your parents got really mad at you.",
+		"msgBr": "Seu professor te tomou as provas de perceber você colando de seu melhor amigo. Seus pais ficaram muito bravos com você.",
+		"effects": { "happy": -10 },
+		"age": { "min": 12, "max": 17 }
+	},
+	{
+		"msg": "Your mom and your dad are calling your name at the same time, it looks like they want you to choose from one of them.",
+		"msgBr": "Sua mãe e seu pai estão chamando seu nome ao mesmo tempo, parece que eles querem que você escolha um deles.",
+		"choices": [
+			{ "msg": "go towards mom",
+				"msgBr": "vá na direção da sua mãe",
+				"effects": { "happy": 5, "smarts": 5 } },
+			{ "msg": "go towards dad",
+				"msgBr": "va na direção do seu pai",
+				"effects": { "happy": 5, "looks": 5 } },
+			{ "msg": "go play with your toys",
+				"msgBr": "vá brincar com seus brinquedos",
+				"effects": { "happy": 10, "social": -5 },
+				"done": "Both your mom and your dad looked very confused with your decision!",
+				"doneBr": "Seu pai e sua mãe pareceram muito confusos com sua decisão!" }
+		],
+		"age": { "max": 8 }
+	},
+	{
+		"msg": "Walking on the street, you found yourself $10! You took it with you and bough something nice.",
+		"msgBr": "Andando pela rua, você achou 10 dólares! Você pegou pra você e foi comprar algo legal.",
+		"effects": { "happy": 10 },
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "You were invited to a photo shoot! It could be your change to become a model! But... Your best friend seems kinda jealous.",
+		"msgBr": "Você foi convidado para um ensaio fotográfico! Pode ser sua chance de se tornar modelo! Mas... Seu melhor amigo parece meio invejoso.",
+		"choices": [
+			{ "msg": "attend the photo shoot",
+				"msgBr": "vá no ensaio fotográfico",
+				"effects": { "happy": -5, "looks": 10 },
+				"done": "The shooting went nice, but they never called you back. Your friend acted weird for a couple days, but then everything was alright again.",
+				"doneBr": "O ensaio foi bem, mas eles nunca te ligaram devolta. Seu amigo agiu estranho por alguns dias, mas depois tudo ficou bem." },
+			{ "msg": "ask if your best friend can go in your place",
+				"msgBr": "pergunte se seu amigo pode ir no seu lugar",
+				"effects": { "happy": -5, "social": 10 },
+				"done": "They denied your friend, but found someone else to go in your place... Your friend helped you feel better afterwards.",
+				"doneBr": "Eles negaram seu amigo, mas acharam alguém pra ir no seu lugar.... Seu amigo te ajudou a se sentir melhor depois disso." }
+		],
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "You want to make a drawing that will make your mother proud! But... what should you draw her?",
+		"msgBr": "Você quer fazer um desenho que vá deixar sua mãe orgulhosa! Mas... o que você devia desenhar pra ela?",
+		"choices": [
+			{ "msg": "draw your family in a sunny hill",
+				"msgBr": "desenhe sua familia em uma planície ensolarada",
+				"effects": { "happy": -5, "looks": 10 },
+				"done": "The shooting went nice, but they never called you back. Your friend acted weird for a couple days, but then everything was alright again.",
+				"doneBr": "O ensaio foi bem, mas eles nunca te ligaram devolta. Seu amigo agiu estranho por alguns dias, mas depois tudo ficou bem." },
+			{ "msg": "draw you and her holding hands",
+				"msgBr": "desenhe você e ela de mãos dadas",
+				"effects": { "happy": 5, "social": 10 },
+				"done": "She liked it a lot! But your father looks kinda jealous...",
+				"doneBr": "Ela gostou muito! Mas seu pai " },
+			{ "msg": "draw her face realistically",
+				"msgBr": "desenhe o rosto dela de forma realista",
+				"effects": { "happy": 10, "smarts": 10 },
+				"done": "You pushed yourself a lot in order of making it look realistic. In the end, you were way more proud of it than your mother.",
+				"doneBr": "Você se esforçou muito tentando fazer ficar realista. No final, você estava muito mais orgulhoso do desenho do que sua mãe. " }
+		],
+		"age": { "max": 13 }
+	},
+	{
+		"msg": "Your best friend's birthday is coming, but you forgot to buy his gift! What will you do?",
+		"msgBr": "O aniversário do seu melhor amigo está chegando, mas você esqueceu de comprar seu presente!",
+		"choices": [
+			{ "msg": "just buy anything",
+				"msgBr": "compre qualquer coisa",
+				"effects": { "happy": -5, "social": -5 },
+				"done": "You gave him an amazon gift card. He didn't seem very happy with it.",
+				"doneBr": "Você deu pra ele um gift card. Ele não pareceu muito feliz." },
+			{ "msg": "make something yourself",
+				"msgBr": "faça algo você mesmo",
+				"effects": { "happy": 5, "social": 10 },
+				"done": "You followed a DIY video on how creative DIY birthday gifts. He liked it!",
+				"doneBr": "Você seguiu um tutorial DIY sobre presentes de aniversário. Ele gostou!" },
+			{ "msg": "be honest",
+				"msgBr": "seja honesto",
+				"effects": { "happy": 5, "social": 5 },
+				"done": "You tried being honest and telling him that you forgot. He understood, but still seemed kinda disappointed.",
+				"doneBr": "Você tentou ser hoensto e contar pra ele que esqueceu. Ele entendeu, mas ainda parece meio desapontado." }
+		],
+		"age": { "min": 10 }
+	},
+	{
+		"msg": "You learned a new interesting word after vising an online dictionary website! It'll follow you your entire life now.",
+		"msgBr": "Você aprendeu uma palavra interesante depois de ver um dicionário online! Você vai levar ela pra vida.",
+		"effects": { "happy": 10, "smarts": 5 },
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "Your phone died in the middle of a really important call! You tried asking around for a charger but couldn't find one until it was too late.",
+		"msgBr": "Seu telefone morreu no meio de uma chamada muito importante! Você tentou achar um carregador, mas não conseguiu até que fosse tarde demais.",
+		"effects": { "happy": -10 },
+		"age": { "min": 14 }
+	},
+	{
+		"msg": "You just got addicted to this catchy song from the 80's and keep on singing it around. People are starting to find you really annoying.",
+		"msgBr": "Você ficou viciado nesse som grudendo dos anos 80 e continua cantando ele por aí. As pessoas estão começando a achar isso muito chato.",
+		"effects": { "happy": -5, "social": -10 },
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "You got addicted to a webcomic called \"Homefree\"! You tried to bring your friends into it with you, but they found you dumb for liking that weird thing.",
+		"msgBr": "Você ficou viciado em uma webcomic chamada \"Homefree\"! Você tentou fazer seus amigos gostarem, mas eles te acharam bobo por gostar de algo tão estranho.",
+		"choices": [
+			{ "msg": "ignore their opinions",
+				"msgBr": "ignore a opinião deles",
+				"effects": { "happy": 10, "social": -10, "health": 5 },
+				"done": "That's right, you shouldn't care for what they think!",
+				"doneBr": "Tá certo, você não deve ligar pra o que eles pensam!" },
+			{ "msg": "forget about it",
+				"msgBr": "deixe isso pra lá",
+				"effects": { "happy": -5, "social": 5, "smarts": -5, "health": -5 },
+				"done": "You let go of Homefree cause they said you should... You don't think that was the right decision, but at least you can have their attention now.",
+				"doneBr": "Você deixou Homefree pra lá porque eles disseram que você devia. Você não acha que foi a decisão certa." }
+		],
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "Your father is trying to teach you how to ride a bicycle, but you keep on having trouble with it! He says he isn't leaving until you learn.",
+		"msgBr": "Seu pai está tentando te ensinar como andar de bicicleta, mas você continua não conseguindo! Ele diz que não vai parar até você aprender.",
+		"choices": [
+			{ "msg": "keep on trying",
+				"msgBr": "continue tentando",
+				"effects": { "happy": 10, "smarts": 10 },
+				"done": "You kept on trying! Some time later, you finally got the hang of it, it wasn't that hard!",
+				"doneBr": "Você continuou tentando, até que um tempo depois finalmente conseguiu! Não era tão difícil!" },
+			{ "msg": "tell him you want to go home",
+				"msgBr": "diga que quer ir pra casa",
+				"effects": { "social": -5, "smarts": -5, "health": 5 },
+				"done": "Your father seemed disappointed, but still, he took you home.",
+				"doneBr": "Seu pai pareceu decepcionado, mas mesmo assim, ele te levou pra casa." }
+		],
+		"age": { "min": 8 }
+	},
+	{
+		"msg": "A bigger kid found where you kept your drawing and is now making fun of you in front of your friends!",
+		"msgBr": "Uma criança maior descobriu aonde você escondia seus desenhos e agora está te zombando na frente dos seus amigos.",
+		"choices": [
+			{ "msg": "do nothing about it",
+				"msgBr": "não faça nada",
+				"effects": { "happy": -10, "social": -10, "health": -5 } },
+			{ "msg": "take the drawings from him",
+				"msgBr": "tome os desenhos dele",
+				"effects": { "happy": -10, "social": -5, "smarts": -5 },
+				"done": "You took it from his hands! He took it back, tearing most of them. At least he apologized.",
+				"doneBr": "Você tomou os desenhos das mãos dele! Ele tomou de volta, rasgando a maioria. Pelo menos ele pediu desculpas." },
+			{ "msg": "call him stupid",
+				"msgBr": "chame ele de estúpido",
+				"effects": { "happy": 5, "social": 10, "looks": 5 },
+				"done": "He looked at you with an angry face, but then your friends started calling him things until he went away.",
+				"doneBr": "Ele olhou pra você raiva, mas seus amigos começaram a xingar ele de outras coisas até ele ir embora." }
+		],
+		"age": { "min": 10, "max": 16 }
+	},
+	{
+		"msg": "After looking around at the shopping mall, you found these really cool black glasses! You wanted so much to get them! You asked for the price and... found out they costed around 3 grand.",
+		"msgBr": "Depois de andar pelo shopping, você achou esses óculos escuros muito maneiros! Você queria tanto eles! Você perguntou pelo preço e... descobriu que eles custam cerca de 3 mil.",
+		"effects": { "happy": -10 },
+		"age": { "min": 14 }
+	},
+	{
+		"msg": "You're feeling hungry and looking for a quick meal, after searching around for what to cook, you're pondering about your options...",
+		"msgBr": "Você está sentindo fome e procurando pra um lanche rapido, depois de procurar, você está tentando decidir entre suas opções...",
+		"choices": [
+			{ "msg": "grab a random snack",
+				"msgBr": "pegue um lanche qualquer",
+				"effects": { "happy": 5, "health": -5 } },
+			{ "msg": "try to bake brownie in a mug",
+				"msgBr": "tente cozinhar um bolo de xícara",
+				"effects": { "happy": 10, "smarts": 5, "health": 5 },
+				"done": "That recipe you saw on social media ended up being pretty useful!",
+				"doneBr": "A receita que você viu nas redes sociais acabou sendo útil!" },
+			{ "msg": "serve yourself scrambled eggs",
+				"msgBr": "sirva-se de ovos mexidos",
+				"effects": { "happy": 5 } }			
+		],
+		"age": { "min": 14 }
+	},
+	{
+		"msg": "Your parents took you for a weekend on the beach! Everything looks amazing, but now they keep on telling you that you should use sunscreen...",
+		"msgBr": "Seus pais te levaram para um fim de semana na praia! Tudo está incrível, mas agora eles ficam dizendo que você devia usar protetor solar...",
+		"choices": [
+			{ "msg": "take the advice",
+				"msgBr": "aceite o aviso",
+				"effects": { "health": 10, "looks": 5, "smarts": 5 } },
+			{ "msg": "refuse to use it",
+				"msgBr": "se recuse a usar",
+				"effects": { "health": -5, "looks": -10, "smarts": -5 },
+				"done": "That was a terrible idea. You got yourself sunburnt. A lot.",
+				"doneBr": "Essa foi uma péssima ideia. Você se queimou muito." }
+		],
+		"age": { "min": 10, "max": 16 }
+	},
+	{
+		"msg": "You're doing a speedrun of your favorite game. After over 70 tries, you manage to get your best time yet! In a burst of joy, you end up accidentally bumping into your console, making it fall and losing your progress.",
+		"msgBr": "Você está fazendo uma speedrun do seu jogo favorito. Ao conseguir um tempo incrível, você fica tão surpreso e feliz que acaba puxando o controle na hora de comemorar e derruba o seu console, acabando com a run.",
+		"effects": { "happy": -15 },
+		"age": { "min": 12, "max": 30 }
+	},
+	{
+		"msg": "A storm begins while you're writing something important in your cumputer. Your mom tells you it's better to turn it off, before calling you to the kitchen for a snack.",
+		"msgBr": "Uma tempestade começa enquanto você faz um trabalho importante da faculdade, sua mãe vai ao seu quarto e te avisa que é melhor desligar o computador antes de te chamar para a cozinha.",
+		"choices": [
+			{ "msg": "turn your computer off",
+				"msgBr": "desligue seu computador",
+				"effects": { "happy": 10, "smarts": 10 },
+				"done": "When you come back, you hear a loud thunder! You're relieved you turned everything off before leaving.",
+				"doneBr": "Quando você volta, você escuta um trovão alto! Você está aliviado de ter desligado tudo antes de sair." },
+			{ "msg": "save your progress",
+				"msgBr": "salve seu progresso",
+				"effects": { "smarts": 5, "happy": 5 },
+				"done": "When you come back, you hear a loud thunder and the screen of your computer goes black. You feel relieved cause it's still working.",
+				"doneBr": "Quando você volta, você escuta um trovão alto e a tela do seu computador fica preta! Você sente alivio dele ainda estar funcionando." },
+			{ "msg": "don't save",
+				"msgBr": "não salve",
+				"effects": { "happy": -10, "smarts": -10 },
+				"done": "That was a terrible idea. When you come back, you hear a loud thunder and the screen of your computer goes black.",
+				"doneBr": "Essa foi uma péssima ideia. Quando você volta, você escuta um trovão alto e a tela do seu computador fica preta." }
+		],
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "It's a hot day, you're in the bus, sitting next to the window. Something wrong seems to be going on with the passanger next seat, he seems sick. You don't want to leave your comfy seat.",
+		"msgBr": "Em um dia quente, no ônibus e sentado perto a uma janela, o passageiro do seu lado mostra sinais de que está passando mal, mas você não quer sair da sua posição confortável.",
+		"choices": [
+			{ "msg": "check if he's fine",
+				"msgBr": "cheque se ele está bem",
+				"effects": { "happy": -10, "social": 10, "health": -10 },
+				"done": "You politely ask if everything's alright. And... He throws up! All over you!",
+				"doneBr": "Você educadamente pergunta se ele está bem. E... Ele vomita! Tudo em cima de você!" },
+			{ "msg": "don't mind him",
+				"msgBr": "não ligue pra ele",
+				"effects": { "smarts": 5, "happy": 10 },
+				"done": "Some time later, the passanger throws up all over the floor! At least it was not over you.",
+				"doneBr": "Algum tempo depois, o passageiro vomita por todo o chão! Pelo menos não foi em cimad e você." }
+		],
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "It's morning, and it's time to take your medicines. You get off the bed, walk until you reach the sink, looking at yourself in the mirror. You're feeling well. Should you really take your medicine?",
+		"msgBr": "É a hora dos seus novos remédios logo cedo de manhã, você se levanta e coloca os seus óculos pegando os remédios na cabeceira da cama. Se sentindo bem hoje, você repensa se tormar seus remédios é mesmo algo que você deveria fazer.",
+		"choices": [
+			{ "msg": "take them",
+				"msgBr": "tome",
+				"effects": { "happy": -10, "health": -10 },
+				"done": "You take the medicine as always and keep your routine as always. Months later, you find out your doctor prescripted you the wrong medicines.",
+				"doneBr": "Você toma os remédios como sempre, e continua sua rotina normal. Meses depois, mais magro, você descobre que o médico receitou um medicamento que não podia tomar." },
+			{ "msg": "don't take them",
+				"msgBr": "não tome",
+				"effects": { "happy": 10, "smarts": 10, "health": 5 },
+				"done": "You decided not to take those medicines anymore. Months later, you receive a call from your doctor, finding out he had prescripted you the wrong medicines.",
+				"doneBr": "Você decide que não deve tomar os remédios, pois se sente bem. Alguns meses depois, seu médico te liga desesperado dizendo que receitou o remédio errado." }
+		],
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "You're at the shopping mall with your parents, when you see a really nice toy. You ask your mother for it, she tell's she'll buy it on the way back. Some time later, after you had even forgot about it, she really does buy it for you!",
+		"msgBr": "Você está com seus pais no shopping, e vê um brinquedo muito legal em uma vitrine, você pede pra sua mãe muito empolgado e ela diz que na volta iria comprar, te deixando muito feliz. Na volta, para a sua felicidade, sua mãe realmente compra o brinquedo.",
+		"effects": { "happy": 15 },
+		"age": { "min": 8, "max": 13 }
+	},
+	{
+		"msg": "You're in the middle of a presentation, playing the guitar. Suddenly, your finger slips and you feel a lot of pain, seeing you had cut yourself by accident.",
+		"msgBr": "Você está no meio de uma apresentação tocando guitarra e arrasando, quando de repente você dá uma batida na guitarra e sente uma dor horrível, vendo que se cortou enquanto tocava.",
+		"choices": [
+			{ "msg": "keep on playing",
+				"msgBr": "continue tocando",
+				"effects": { "happy": 10, "social": 10, "health": -5 },
+				"done": "You keep on playing! At the end, your guitar is full of blood and you're feeling a lot of pain, but you're receiving a lot of applauses!",
+				"doneBr": "Você continua tocando e arrasando, no final a guitarra está toda manchada de sangue e seus dedos doendo muito, mas você é muito reconhecido e aplaudido." },
+			{ "msg": "stop playing",
+				"msgBr": "pare de tocar",
+				"effects": { "social": -15, "smarts": -5, "health": 5 },
+				"done": "You stop playing, but the band keeps on playing even with a instrument lacking. The presentation ends with everyone feeling a lot of shame for how bad it went.",
+				"doneBr": " Você para de tocar e a banda continua tocando mesmo com um som estranho, acabando com a apresentação e passando muita vergonha." }
+		],
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "You're drawing something you would feel embarassed if anyone else saw, when someone starts knocking on your door. You don't know what to do.",
+		"msgBr": "Você está há horas desenhando algo meio constrangedor, e então começam a bater na porta do seu quarto, e você não sabe o que fazer.",
+		"choices": [
+			{ "msg": "quickly try to hide the drawing",
+				"msgBr": "rapidamente tente esconder o desenho",
+				"effects": { "happy": -10 },
+				"done": "At hurry, you end up bumping into a bottle of black ink, that falls over both the drawing and your shirt. At least no one saw your drawing.",
+				"doneBr": "Às pressas você se levanta e acaba derrubando um frasco de tinta preta sobre todo seu desenho e seu celular cai no seu dedão do pé, a pessoa abre a porta e te vê em uma posição constrangedora." },
+			{ "msg": "ignore it, the door is locked",
+				"msgBr": "ignore, a porta está trancada",
+				"effects": { "happy": -10, "social": -5, "smarts": -5 },
+				"done": "You forgot that the door was not locked. The person opens it up, seeing your drawing and making you extremely embarassed.",
+				"doneBr": " Você ignora e continua desenhando, mas esquece que não havia trancado a porta, logo a pessoa abre a porta e vê seu desenho te deixando extremamente constrangido." }
+		],
+		"age": { "min": 10 }
+	},
+	{
+		"msg": "You go to the cinema to watch the last movie of your favourite trilogy. The movie is amazing! You're very happy, until... Even if it's a happy ending, your favourite character dies at the end, making you cry a lot.",
+		"msgBr": "Você vai ao cinema pra ver o último filme de uma saga que gosta muito, o filme é incrível e você fica muito feliz, até que... No final, apesar do final feliz pra maioria dos personagens, seu personagem favorito morre no final, te fazendo chorar muito.",
+		"effects": { "happy": -15 },
+		"age": { "min": 12 }
+	},
+	{
+		"msg": "Two new gaming consoles are on the market. Between your options, one has many available games, and the other is from your favourite brand, but still don't have many game options.",
+		"msgBr": "Dois novos consoles estão no mercado. Entre suas opções, um tem muitos jogos disponíveis, e o outro é da sua marca favorita, mas ainda não tem muitos lançamentos.",
+		"choices": [
+			{ "msg": "take the one with more games",
+				"msgBr": "pegue o com mais jogos",
+				"effects": { "happy": 10, "smarts": -5 },
+				"done": "You choose not to wait too much and take the console with more games, having a lot of fun when it arrives.",
+				"doneBr": "Você opta por não esperar e leva o console com mais jogos, se divertindo muito ao chegar em casa." },
+			{ "msg": "wait some time before making a decision",
+				"msgBr": "espere antes de decidir",
+				"effects": { "happy": 10, "smarts": 5 },
+				"done": "You choose not to buy any of them yet. Some months later, after the release of many new games, you buy the one from your favourite brand, getting really happy with it.",
+				"doneBr": "Você opta por não comprar um console agora e volta para casa. Felizmente, meses depois você consegue comprar o outro console e se diverte muito." }
+		],
+		"age": { "min": 14 }
+	},
+	{
+		"msg": "Around 3:00 am, you're having a gaming marathon, without sleeping for at least 20 hours. Suddenly, your mom starts knocking on your door, telling you to go to sleep.",
+		"msgBr": "Por volta das três da manhã, você está numa maratona de videogame sem dormir por pelo menos 12h. De repente, sua mãe começa a bater na porta do quarto te mandando dormir.",
+		"choices": [
+			{ "msg": "ignore her and keep on playing",
+				"msgBr": "ignore-a e continue jogando",
+				"effects": { "happy": -10, "smarts": -5, "health": -5 },
+				"done": "The door was not locked. Your mom barge into your room, turning off your game. Now you've got no choic but to sleep.",
+				"doneBr": "Sua mãe entra no quarto tirando o videogame da tomada, e você fica de castigo e é obrigado a dormir." },
+			{ "msg": "turn it off and go to bed",
+				"msgBr": "desligue e vá dormir",
+				"effects": { "happy": -5, "smarts": 10, "health": 5 } }
+		],
+		"age": { "min": 11, "max": 16 }
+	},
+	{
+		"msg": "When choose a color to dye your hair, you decided to go with something new and get yourself something vibrant! Even with how you felt apprehensive with your decision, everything ends up fine. Your friends like your new hairstyle a lot!",
+		"msgBr": "Na hora de escolher uma cor para pintar o cabelo, você decide fazer algo novo e pega um tonalizante rosa chiclete, e então pinta seu cabelo meio nervoso sem conseguir se ver com aquela cor. Você fica muito surpreso e feliz ao ver o resultado. Seus amigos te elogiam muito.",
+		"effects": { "happy": 10, "social": 10, "looks": 10 },
+		"age": { "min": 12, "max": 50 }
+	},
+	{
+		"msg": "At school, after not studying for your exams, you find yourself in front of a very hard question. If you get it right, you know your grade won't be that bad.",
+		"msgBr": "Na escola, após não ter estudado para um teste você se vê em uma pergunta muito díficil, porém se acertar a resposta você sabe que sua nota não será tão ruim.",
+		"choices": [
+			{ "msg": "close your eyes and check any option",
+				"msgBr": "feche os olhos e marque alguma opção",
+				"effects": { "happy": -10, "smarts": -10 },
+				"done": "You end up missing all options. You lose even more points for having drawn over your exam.",
+				"doneBr": "Você não marca nenhuma opção e acaba rasurando o teste, perdendo ainda mais pontos." },
+			{ "msg": "believe in the heart of the exams",
+				"msgBr": "acredite no coração das provas",
+				"effects": { "happy": -5, "smarts": -5 },
+				"done": "\"It's time do duel.\", you tell your exam, before choosing a random option. But of course, it was not the right answer.",
+				"doneBr": "\"É hora do duelo.\" você diz pra prova, antes de escolher uma opção qualquer. Mas claro, essa não era a resposta certa." }
+		],
+		"age": { "min": 11, "max": 18 }
+	},
+	{
+		"msg": "When choose a color to dye your hair, you decided to go with something new and get yourself something vibrant! Even with how you felt apprehensive with your decision, everything ends up fine. Your friends like your new hairstyle a lot!",
+		"msgBr": "Na hora de escolher uma cor para pintar o cabelo, você decide fazer algo novo e pega um tonalizante rosa chiclete, e então pinta seu cabelo meio nervoso sem conseguir se ver com aquela cor. Você fica muito surpreso e feliz ao ver o resultado. Seus amigos te elogiam muito.",
+		"effects": { "happy": 10, "social": 10, "looks": 10 },
+		"age": { "min": 12, "max": 50 }
+	},
+	{
+		"msg": "Your car breaks in the middle of a road surrounded by forest. It's 4:00 am and you don't know what to do. At least everything is bright thanks to the moon.",
+		"msgBr": "Seu carro quebra no meio de uma estrada cercada por floresta, são quatro da manhã e você não sabe o que fazer, porém está tudo muito iluminado devido a lua cheia.",
+		"choices": [
+			{ "msg": "spend the night inside your car",
+				"msgBr": "passe a noite dentro do carro",
+				"effects": { "smarts": 5, "health": -5 },
+				"done": "You sleep inside your car in a very bad position. At the morning, you walk until arriving at the closest city.",
+				"doneBr": "Você dorme no seu carro e acorda com muita dor, de manhã você caminha até a cidade mais proxima." },
+			{ "msg": "try to fix the problem",
+				"msgBr": "tente arrumar",
+				"effects": { "happy": -10, "smarts": -5 },
+				"done": "You walk outside and pop the hood. After some time, you get terrified for seeing something like two yellow eyes looking straight at you from the wood. Afraid, you run back inside.",
+				"doneBr": "Você sai e abre o capô do carro pra tentar resolver o problema, mas jurando que olhos amarelos te observavam na mata, você acaba se desesperando, voltando correndo pra dentro do carro." },
+			{ "msg": "start walking for the next city",
+				"msgBr": "comece a andar pra próxima cidade",
+				"effects": { "happy": -5, "smarts": -5 },
+				"done": "You walk and get lost, losing your way into the closest city. Even though, at the next city, you end up getting the help you needed.",
+				"doneBr": "Você caminha e fica perdido, perdendo a saída pra cidade mais proxima. Porém, na cidade seguinte, após perceber seu erro, você acaba conseguindo ajuda." }
+		],
+		"age": { "min": 18 }
+	},
+	{
+		"msg": "You find a wallet on the street. It's full of money and contains the identity card of someone that's pretty famous around your city.",
+		"msgBr": "Você encontra uma carteira na rua, cheia de dinheiro e com uma identidade de alguém que você reconhece por ser famoso na cidade.",
+		"choices": [
+			{ "msg": "take the money and leave the wallet",
+				"msgBr": "pegue o dinheiro e deixe a carteira",
+				"effects": { "happy": 5, "smarts": -5 } },
+			{ "msg": "search for the owner",
+				"msgBr": "procure o dono",
+				"effects": { "happy": 10, "smarts": 5 },
+				"done": "The wallet's owner ends up giving you a nice reward for your honesty!",
+				"doneBr": "O dono acaba te dando uma recompensa legal pela sua honestidade!" }
+		],
+		"age": { "min": 14 }
+	},
+	{
+		"msg": "During a walk around the city, you end up finding a former love interest of yours. You two talk for a while and it's all very nice! In the end, you two exchange numbers.",
+		"msgBr": "Durante um passeio no centro da cidade, você encontra um antigo interesse amoroso se mudando de volta para a sua cidade. Vocês começam a conversar e um clima ótimo surge entre os dois, e então vocês trocam números e combinam de sair qualquer dia.",
+		"effects": { "happy": 10, "social": 5 },
+		"age": { "min": 12 }
+	}	
+]

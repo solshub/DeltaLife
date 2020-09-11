@@ -1,0 +1,98 @@
+[
+	{
+		"zodiac": "Aries",
+		"zodiacBr": "Áries",
+		"symbol": "♈",
+		"partners": [ 0, 4, 8 ],
+		"desc": "Your way to happiness is to leave your thoughts behind and let that fierce impulsivity take control.",
+		"bonus": "Bonus happy & social from mean actions"
+	},
+	{
+		"zodiac": "Taurus",
+		"zodiacBr": "Touro",
+		"symbol": "♉",
+		"partners": [ 1, 5, 9 ],
+		"desc": "Happiness walks along stability, you want to feel safe, to know that everything is going to be alright.",
+		"bonus": "Bonus happy each year while employed"
+	},
+	{
+		"zodiac": "Gemini",
+		"zodiacBr": "Gêmeos",
+		"symbol": "♊",
+		"partners": [ 2, 6, 10 ],
+		"desc": "You have the mind of a genius! Even though, it's unpredictable. No one may ever know what comes next.",
+		"bonus": "Always born with more than 40 smarts"
+	},
+	{
+		"zodiac": "Cancer",
+		"zodiacBr": "Câncer",
+		"symbol": "♋",
+		"partners": [ 3, 7, 11 ],
+		"desc": "You have a very strong emotional, your path to happiness may be found in having someone at your side.",
+		"bonus": "Bonus happy each year while married"
+	},
+	{
+		"zodiac": "Leo",
+		"zodiacBr": "Leão",
+		"symbol": "♌",
+		"partners": [ 0, 4, 8 ],
+		"desc": "You want to draw attention, you want people to know your name, you feel like it's your birth right.",
+		"bonus": "Always born with more than 40 looks"
+	},
+	{
+		"zodiac": "Virgo",
+		"zodiacBr": "Virgem",
+		"symbol": "♍",
+		"partners": [ 1, 5, 9 ],
+		"desc": "You appreciate those with decorum and feel repulse towards vulgarity. You like to be rigorous with yourself.",
+		"bonus": "Bonus happy each year with a degree"
+	},
+	{
+		"zodiac": "Libra",
+		"zodiacBr": "Libra",
+		"symbol": "♎",
+		"partners": [ 2, 6, 10 ],
+		"desc": "For you, things need to be in balance. You find it's important to know how to be fair and to mediate issues.",
+		"bonus": "No one gets happy by meing mean to you"
+	},
+	{
+		"zodiac": "Scorpio",
+		"zodiacBr": "Escorpião",
+		"symbol": "♏",
+		"partners": [ 3, 7, 11 ],
+		"desc": "Whatever it takes to reach your goal, you're ready for it. Sometimes, consequences aren't scary at all!",
+		"bonus": "Higher success rate when doing crimes"
+	},
+	{
+		"zodiac": "Sagittarius",
+		"zodiacBr": "Sagitário",
+		"symbol": "♐",
+		"partners": [ 0, 4, 8 ],
+		"desc": "You're a nice person. You smile a lot! Things in life tend to be easy for you, you appreciate good company.",
+		"bonus": "Bonus happy each year while high social"
+	},
+	{
+		"zodiac": "Capricorn",
+		"zodiacBr": "Capricórnio",
+		"symbol": "♑",
+		"partners": [ 1, 5, 9 ],
+		"desc": "You're not good in being social, sometimes people see you as unsympathetic... But you're fine with it.",
+		"bonus": "Bonus happy each year while low social"
+	},
+	{
+		"zodiac": "Aquarius",
+		"zodiacBr": "Aquário",
+		"symbol": "♒",
+		"partners": [ 2, 6, 10 ],
+		"desc": "You value being independent. You also value new things, new relationships, renewing yourself! It makes you happy.",
+		"bonus": "Get happy from meeting new people"
+	},
+	{
+		"zodiac": "Pisces",
+		"zodiacBr": "Peixes",
+		"symbol": "♓",
+		"partners": [ 3, 7, 11 ],
+		"desc": "Romance is important. It's where you'll find happiness, be giving others love or receiving love from others.",
+		"bonus": "Bonus happy & social from romantic actions"
+	}
+]

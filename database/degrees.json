@@ -1,0 +1,114 @@
+[
+	{
+		"msg": "none",
+		"msgBr": "nenhum"
+	},
+	{
+		"msg": "the kindergarden",
+		"msgBr": "jardim de infância"
+	},
+	{
+		"msg": "elementary school",
+		"msgBr": "fundamental"
+	},
+	{
+		"msg": "middle school",
+		"msgBr": "fundamental"
+	},
+	{
+		"msg": "high school",
+		"msgBr": "ensino médio"
+	},
+	{
+		"msg": "Villainy",
+		"msgBr": "Vilanesa"
+	},
+	{
+		"msg": "Psychology",
+		"msgBr": "Psicologia"
+	},
+	{
+		"msg": "Physics",
+		"msgBr": "Física"
+	},
+	{
+		"msg": "Literature",
+		"msgBr": "Literatura"
+	},
+	{
+		"msg": "History",
+		"msgBr": "História"
+	},
+	{
+		"msg": "Fine Art",
+		"msgBr": "Belas Artes"
+	},
+	{
+		"msg": "Economics",
+		"msgBr": "Economia"
+	},
+	{
+		"msg": "Drama",
+		"msgBr": "Drama"
+	},
+	{
+		"msg": "Culinary",
+		"msgBr": "Culinária"
+	},
+	{
+		"msg": "Computer Science",
+		"msgBr": "Ciências da Computação"
+	},
+	{
+		"msg": "Public Relations",
+		"msgBr": "Relações Públicas"
+	},
+	{
+		"msg": "Biology",
+		"msgBr": "Biologia"
+	},
+	{
+		"msg": "Music",
+		"msgBr": "Música"
+	},
+	{
+		"msg": "Physical Education",
+		"msgBr": "Educação Física"
+	},
+	{
+		"msg": "Medicine",
+		"msgBr": "Medicina"
+	},
+	{
+		"msg": "Religious Studies",
+		"msgBr": "Religião"
+	},
+	{
+		"msg": "Chemistry",
+		"msgBr": "Química"
+	},
+	{
+		"msg": "Math",
+		"msgBr": "Matemática"
+	},
+	{
+		"msg": "Criminal Justice",
+		"msgBr": "Justiça Criminal"
+	},
+	{
+		"msg": "Education",
+		"msgBr": "Educação"
+	},
+	{
+		"msg": "Dentistry",
+		"msgBr": "Odontologia"
+	},
+	{
+		"msg": "Finance",
+		"msgBr": "Finanças"
+	},
+	{
+		"msg": "Veterinary Studies",
+		"msgBr": "Medicina Veterinária"
+	}
+]

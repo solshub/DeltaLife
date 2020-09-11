@@ -1,0 +1,428 @@
+[
+	{ 
+		"sick": "the Flu",
+		"sickBr": "Gripe",
+		"effect": {
+			"stat": "health",
+			"val": -3
+		},
+		"cure": {
+			"vanish": 75,
+			"high": ["health"]
+		},
+		"risk": {
+			"chance": true,
+			"medic": 100,
+			"age": {}
+		}
+	},
+	{
+		"sick": "Cancer",
+		"sickBr": "Câncer",
+		"effect": {
+			"letal": 15,
+			"stat": ["happy", "health", "looks"],
+			"val": [-9, -9, -3]
+		},
+		"cure": {
+			"vanish": 10
+		},
+		"risk": {
+			"chance": true,
+			"medic": 15,
+			"age": { "min": 30 }
+		}
+	},
+	{
+		"sick": "Cirrhosis",
+		"sickBr": "Cirrose",
+		"effect": {
+			"letal": 5,
+			"stat": ["happy", "health", "looks", "smarts"],
+			"val": [-3, -6, -3, -3]
+		},
+		"cure": {
+			"vanish": 20
+		},
+		"risk": {
+			"drinking": true,
+			"medic": 30,
+			"low": ["happy", "smarts"],
+			"age": { "min": 20 }
+		}
+	},
+	{
+		"sick": "Pneumonia",
+		"sickBr": "Pneumonia",
+		"effect": {
+			"letal": 5,
+			"stat": "health",
+			"val": -6
+		},
+		"cure": {
+			"vanish": 40
+		},
+		"risk": {
+			"chance": true,
+			"medic": 60,
+			"age": {}
+		}
+	},
+	{
+		"sick": "Diarrhea",
+		"sickBr": "Diarréia",
+		"effect": {
+			"letal": 1,
+			"stat": ["happy", "health"],
+			"val": [-9, -6]
+		},
+		"cure": {
+			"vanish": 60
+		},
+		"risk": {
+			"chance": true,
+			"sex": true,
+			"medic": 70,
+			"low": "smarts",
+			"age": {}
+		}
+	},
+	{
+		"sick": "HIV",
+		"sickBr": "AIDS",
+		"effect": {
+			"stat": ["happy", "health", "social"],
+			"val": [-9, -9, -3]
+		},
+		"risk": {
+			"sex": true,
+			"born": true,
+			"low": "smarts",
+			"age": { "min": 14 }
+		}
+	},
+	{
+		"sick": "Depression",
+		"sickBr": "Depressão",
+		"effect": {
+			"letal": 5,
+			"stat": ["happy", "health", "social"],
+			"val": [-9, -3, -6]
+		},
+		"cure": {
+			"vanish": 5,
+			"high": ["happy"]
+		},
+		"risk": {
+			"chance": true,
+			"born": true,
+			"medic": 10,
+			"low": "happy",
+			"age": {}
+		}
+	},
+	{
+		"sick": "Anxiety",
+		"sickBr": "Ansiedade",
+		"effect": {
+			"letal": 5,
+			"stat": ["happy", "health", "smarts", "social"],
+			"val": [-9, -3, -3, -6]
+		},
+		"cure": {
+			"vanish": 5,
+			"high": ["social"]
+		},
+		"risk": {
+			"chance": true,
+			"born": true,
+			"medic": 10,
+			"low": "social",
+			"age": {}
+		}
+	},
+	{
+		"sick": "Asthma",
+		"sickBr": "Asma",
+		"effect": {
+			"letal": 1,
+			"stat": ["happy", "health", "social"],
+			"val": [-3, -3, -3]
+		},
+		"cure": {
+			"vanish": 30
+		},
+		"risk": {
+			"chance": true,
+			"born": true,
+			"medic": 30,
+			"age": { "max": 18 }
+		}
+	},
+	{
+		"sick": "Measles",
+		"sickBr": "Sarampo",
+		"effect": {
+			"stat": ["happy", "health", "looks"],
+			"val": [-3, -3, -6]
+		},
+		"cure": {
+			"vanish": 30
+		},
+		"risk": {
+			"chance": true,
+			"sex": true,
+			"medic": 40,
+			"age": { "max": 15 }
+		}
+	},
+	{
+		"sick": "Arrhythmia",
+		"sickBr": "Arritmia",
+		"effect": {
+			"letal": 5,
+			"stat": ["happy", "health"],
+			"val": [-3, -3]
+		},
+		"cure": {
+			"vanish": 5
+		},
+		"risk": {
+			"chance": true,
+			"medicine": true,
+			"medic": 20,
+			"age": { "min": 15 }
+		}
+	},
+	{
+		"sick": "Diabetes",
+		"sickBr": "Diabetes",
+		"effect": {
+			"letal": 15,
+			"stat": ["happy", "health"],
+			"val": [-6, -9]
+		},
+		"cure": {
+			"vanish": 5
+		},
+		"risk": {
+			"chance": true,
+			"old": true,
+			"medic": 10,
+			"low": "smarts",
+			"age": { "min": 50 }
+		}
+	},
+	{
+		"sick": "High cholesterol",
+		"sickBr": "Colesterol alto",
+		"effect": {
+			"letal": 5,
+			"stat": ["happy", "health"],
+			"val": [-6, -9]
+		},
+		"cure": {
+			"vanish": 5,
+			"high": ["health"]
+		},
+		"risk": {
+			"chance": true,
+			"medic": 40,
+			"low": "smarts",
+			"age": { "min": 30 }
+		}
+	},
+	{
+		"sick": "Atherosclerosis",
+		"sickBr": "Aterosclerose",
+		"effect": {
+			"stat": ["happy", "health"],
+			"val": [-6, -9]
+		},
+		"risk": {
+			"chance": true,
+			"old": true,
+			"medic": 10,
+			"age": { "min": 50 }
+		}
+	},
+	{
+		"sick": "Hypertension",
+		"sickBr": "Hipertensão",
+		"effect": {
+			"stat": ["happy", "health", "smarts"],
+			"val": [-6, -9, -3]
+		},
+		"cure": {
+			"vanish": 15,
+			"high": ["happy"]
+		},
+		"risk": {
+			"chance": true,
+			"medic": 10,
+			"low": "happy",
+			"age": { "min": 30 }
+		}
+	},
+	{
+		"sick": "Hepatitis",
+		"sickBr": "Hepatite",
+		"effect": {
+			"letal": 10,
+			"stat": ["happy", "health"],
+			"val": [-6, -6]
+		},
+		"cure": {
+			"vanish": 30
+		},
+		"risk": {
+			"chance": true,
+			"born": false,
+			"medic": 30,
+			"age": { "min": 20 }
+		}
+	},
+	{
+		"sick": "Schizophrenia",
+		"sickBr": "Esquizofrenia",
+		"effect": {
+			"stat": ["happy", "health", "social"],
+			"val": [-9, -9, -6]
+		},
+		"risk": {
+			"chance": true,
+			"old": true,
+			"low": "social",
+			"age": { "min": 60 }
+		}
+	},
+	{
+		"sick": "Alzheimer",
+		"sickBr": "Alzheimer",
+		"effect": {
+			"stat": ["happy", "health", "smarts", "social"],
+			"val": [-9, -3, -6, -6]
+		},
+		"risk": {
+			"chance": true,
+			"old": true,
+			"low": "social",
+			"age": { "min": 60 }
+		}
+	},
+	{
+		"sick": "Dementia",
+		"sickBr": "Demência",
+		"effect": {
+			"stat": ["happy", "health", "smarts", "social"],
+			"val": [-6, -3, -6, -6]
+		},
+		"risk": {
+			"chance": true,
+			"old": true,
+			"age": { "min": 60 }
+		}
+	},
+	{
+		"sick": "Parkinson's Disease",
+		"sickBr": "doença de Parkinson",
+		"effect": {
+			"stat": ["happy", "health"],
+			"val": [-9, -3]
+		},
+		"risk": {
+			"chance": true,
+			"old": true,
+			"age": { "min": 60 }
+		}
+	},
+	{
+		"sick": "Arthritis",
+		"sickBr": "Artrite",
+		"effect": {
+			"stat": ["happy", "health"],
+			"val": [-6, -9]
+		},
+		"risk": {
+			"chance": true,
+			"old": true,
+			"age": { "min": 60 }
+		}
+	},
+	{
+		"sick": "Tuberculosis",
+		"sickBr": "Tuberculose",
+		"effect": {
+			"letal": 15,
+			"stat": ["happy", "health", "looks"],
+			"val": [-3, -9, -3]
+		},
+		"cure": {
+			"vanish": 20
+		},
+		"risk": {
+			"chance": true,
+			"medic": 30,
+			"age": { "min": 10 }
+		}
+	},
+	{
+		"sick": "Down syndrome",
+		"sickBr": "Síndrome de Down",
+		"effect": {
+			"stat": ["looks", "smarts", "social"],
+			"val": [-6, -6, -3]
+		},
+		"risk": {
+			"born": true,
+			"age": {}
+		}
+	},
+	{
+		"sick": "Acne",
+		"sickBr": "Acne",
+		"effect": {
+			"stat": ["happy", "looks", "social"],
+			"val": [-6, -9, -6]
+		},
+		"risk": {
+			"chance": true,
+			"born": true,
+			"age": { "max": 17 }
+		}
+	},
+	{
+		"sick": "Migraine",
+		"sickBr": "Enxaqueca",
+		"effect": {
+			"stat": ["happy"],
+			"val": [-9]
+		},
+		"cure": {
+			"vanish": 75,
+			"high": ["health"]
+		},
+		"risk": {
+			"chance": true,
+			"medic": 60,
+			"low": "health",
+			"age": {}
+		}
+	},
+	{
+		"sick": "Dermatitis",
+		"sickBr": "Dermatite",
+		"effect": {
+			"stat": ["happy", "health", "looks"],
+			"val": [-6, -3, -6]
+		},
+		"cure": {
+			"vanish": 40
+		},
+		"risk": {
+			"chance": false,
+			"medic": 40,
+			"age": {}
+		}
+	}
+]

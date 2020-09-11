@@ -1,0 +1,30 @@
+[
+	{
+		"set": "general",
+		"time": 3000
+	},
+	{
+		"set": "age",
+		"time": 3600000
+	},
+	{
+		"set": "random",
+		"time": 600000
+	},
+	{
+		"set": "drink",
+		"time": 900000
+	},
+	{
+		"set": "drugs",
+		"time": 900000
+	},
+	{
+		"set": "study",
+		"time": 1800000
+	},
+	{
+		"set": "work",
+		"time": 1800000
+	}
+]

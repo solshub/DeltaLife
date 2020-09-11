@@ -1,0 +1,52 @@
+[
+	{
+		"gender": "hermaphrodite (FtM)",
+		"genderBr": "hermafrodita (FtM)",
+		"symbol": "⚥",
+		"details": {
+			"getpreg": false,
+			"impreg": false,
+			"male": true
+		}
+	},
+	{
+		"gender": "male",
+		"genderBr": "homem",
+		"symbol": "♂️",
+		"details": {
+			"getpreg": false,
+			"impreg": true,
+			"male": true
+		}
+	},
+	{
+		"gender": "female",
+		"genderBr": "mulher",
+		"symbol": "♀️",
+		"details": {
+			"getpreg": true,
+			"impreg": false,
+			"male": false
+		}
+	},
+	{
+		"gender": "transgender (FtM)",
+		"genderBr": "transgênero (FtM)",
+		"symbol": "♂️",
+		"details": {
+			"getpreg": false,
+			"impreg": false,
+			"male": true
+		}
+	},
+	{
+		"gender": "transgender (MtF)",
+		"genderBr": "transgênero (MtF)",
+		"symbol": "♀️",
+		"details": {
+			"getpreg": false,
+			"impreg": false,
+			"male": false
+		}
+	}
+]

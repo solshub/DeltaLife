@@ -1,0 +1,49 @@
+[
+	{
+		"sexuality": "Pansexual",
+		"desc": "Every user, registered or not"
+	},
+	{
+		"sexuality": "Ambisexual",
+		"sexualityBr": "Ambissexual",
+		"desc": "Every registered player",
+		"reqPlayer": true
+	},
+	{
+		"sexuality": "Asexual",
+		"desc": "No one, you jus't dont feel it"
+	},
+	{
+		"sexuality": "Demisexual ",
+		"desc": "Only your close friends",
+		"reqPlayer": true
+	},
+	{
+		"sexuality": "Malesexual",
+		"sexualityBr": "Homemsexual",
+		"desc": "Only male players",
+		"reqPlayer": true
+	},
+	{
+		"sexuality": "Femalesexual",
+		"sexualityBr": "Mulhersexual",
+		"desc": "Only female players",
+		"reqPlayer": true
+	},
+	{
+		"sexuality": "Heterosexual",
+		"sexualityBr": "Heterosexual",
+		"desc": "Players with the opposite gender",
+		"reqPlayer": true
+	},
+	{
+		"sexuality": "Homosexual",
+		"sexualityBr": "Homossexual",
+		"desc": "Players with the same gender",
+		"reqPlayer": true
+	},
+	{
+		"sexuality": "Greysexual",
+		"desc": "... It's mostly random"
+	}
+]

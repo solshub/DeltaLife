@@ -1,0 +1,232 @@
+[
+	{
+		"country": "Brazil",
+		"countryBr": "do Brasil",
+		"flag": "🇧🇷"
+	},
+	{
+		"country": "the United States",
+		"countryBr": "dos Estados Unidos",
+		"flag": "🇺🇸"
+	},
+	{
+		"country": "England",
+		"countryBr": "da Inglaterra",
+		"flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+	},
+	{
+		"country": "France",
+		"countryBr": "da França",
+		"flag": "🇫🇷"
+	},
+	{
+		"country": "Thailand",
+		"countryBr": "da Tailândia",
+		"flag": "🇹🇭"
+	},
+	{
+		"country": "Turkey",
+		"countryBr": "da Turquia",
+		"flag": "🇹🇷"
+	},
+	{
+		"country": "Uganda",
+		"countryBr": "da Uganda",
+		"flag": "🇺🇬"
+	},
+	{
+		"country": "Uruguay",
+		"countryBr": "do Uruguai",
+		"flag": "🇺🇾"
+	},
+	{
+		"country": "Germany",
+		"countryBr": "da Alemanha",
+		"flag": "🇩🇪"
+	},
+	{
+		"country": "Egypt",
+		"countryBr": "do Egito",
+		"flag": "🇪🇬"
+	},
+	{
+		"country": "Spain",
+		"countryBr": "da Espanha",
+		"flag": "🇪🇸"
+	},
+	{
+		"country": "Chile",
+		"countryBr": "do Chile",
+		"flag": "🇨🇱"
+	},
+	{
+		"country": "China",
+		"countryBr": "da China",
+		"flag": "🇨🇳"
+	},
+	{
+		"country": "Colombia",
+		"countryBr": "da Colombia",
+		"flag": "🇨🇴"
+	},
+	{
+		"country": "Cuba",
+		"countryBr": "da Cuba",
+		"flag": "🇨🇺"
+	},
+	{
+		"country": "Peru",
+		"countryBr": "do Peru",
+		"flag": "🇵🇪"
+	},
+	{
+		"country": "Nigeria",
+		"countryBr": "da Nigéria",
+		"flag": "🇳🇬"
+	},
+	{
+		"country": "Japan",
+		"countryBr": "do Japão",
+		"flag": "🇯🇵"
+	},
+	{
+		"country": "South Korea",
+		"countryBr": "da Coréia do Sul",
+		"flag": "🇰🇷"
+	},
+	{
+		"country": "Iran",
+		"countryBr": "do Irã",
+		"flag": "🇮🇷"
+	},
+	{
+		"country": "Iraq",
+		"countryBr": "do Iraque",
+		"flag": "🇮🇶"
+	},
+	{
+		"country": "India",
+		"countryBr": "da Índia",
+		"flag": "🇮🇳"
+	},
+	{
+		"country": "Israel",
+		"countryBr": "de Israel",
+		"flag": "🇮🇱"
+	},
+	{
+		"country": "Ireland",
+		"countryBr": "da Irlanda",
+		"flag": "🇮🇪"
+	},
+	{
+		"country": "Indonesia",
+		"countryBr": "da Indonésia",
+		"flag": "🇮🇩"
+	},
+	{
+		"country": "Greenland",
+		"countryBr": "da Groenlândia",
+		"flag": "🇬🇱"
+	},
+	{
+		"country": "Afghanistan",
+		"countryBr": "do Afeganistão",
+		"flag": "🇦🇫"
+	},
+	{
+		"country": "Argentina",
+		"countryBr": "da Argentina",
+		"flag": "🇦🇷"
+	},
+	{
+		"country": "Costa Rica",
+		"countryBr": "da Costa Rica",
+		"flag": "🇨🇷"
+	},
+	{
+		"country": "New Zealand",
+		"countryBr": "da Nova Zelândia",
+		"flag": "🇳🇿"
+	},
+	{
+		"country": "Philippines",
+		"countryBr": "das Filipinas",
+		"flag": "🇵🇭"
+	},
+	{
+		"country": "Romania",
+		"countryBr": "da România",
+		"flag": "🇷🇴"
+	},
+	{
+		"country": "Saudi Arabia",
+		"countryBr": "da Arábia Saudita",
+		"flag": "🇸🇦"
+	},
+	{
+		"country": "Singapore",
+		"countryBr": "de Singapura",
+		"flag": "🇸🇬"
+	},
+	{
+		"country": "Sweden",
+		"countryBr": "da Suécia",
+		"flag": "🇸🇪"
+	},
+	{
+		"country": "Venezuela",
+		"countryBr": "da Venezuela",
+		"flag": "🇻🇪"
+	},
+	{
+		"country": "South Africa",
+		"countryBr": "da África do Sul",
+		"flag": "🇿🇦"
+	},
+	{
+		"country": "Greece",
+		"countryBr": "da Grécia",
+		"flag": "🇬🇷"
+	},
+	{
+		"country": "Austria",
+		"countryBr": "da Áustria",
+		"flag": "🇦🇹"
+	},
+	{
+		"country": "Poland",
+		"countryBr": "da Polônia",
+		"flag": "🇵🇱"
+	},
+	{
+		"country": "Canada",
+		"countryBr": "do Canadá",
+		"flag": "🇨🇦"
+	},
+	{
+		"country": "Portugal",
+		"countryBr": "de Portugal",
+		"flag": "🇵🇹"
+	},
+	{
+		"country": "Russia",
+		"countryBr": "da Rússia",
+		"flag": "🇷🇺"
+	},
+	{
+		"country": "Malaysia",
+		"countryBr": "da Malásia",
+		"flag": "🇲🇾"
+	},
+	{
+		"country": "Mexico",
+		"countryBr": "do México",
+		"flag": "🇲🇽"
+	},
+	{
+		"country": "Holland",
+		"countryBr": "da Holanda",
+		"flag": "🇳🇱"
+	}
+]

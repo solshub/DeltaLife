@@ -1,0 +1,662 @@
+[
+	{
+		"msg": "When was Mahatma Gandhi assassinated?",
+		"msgBr": "Em que ano Mahatma Gandhi foi assassinado?",
+		"choices": [			
+			{ "msg": "1948", "correct": true },
+			{ "msg": "1951" },
+			{ "msg": "1958" },
+			{ "msg": "1970" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "When was Shakespeare born?",
+		"msgBr": "Em que ano Shakespeare nasceu?",
+		"choices": [			
+			{ "msg": "1564", "correct": true },
+			{ "msg": "1618" },
+			{ "msg": "1642" },
+			{ "msg": "1776" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Which amongst the following has the lowest metabolic rate of oxygen consumption?",
+		"msgBr": "Qual desses tem a menor taxa metabolica de consumo de oxigêncio?",
+		"choices": [			
+			{ "msg": "Elephant", "msgBr": "Elefante", "correct": true },
+			{ "msg": "Dog", "msgBr": "Cachorro" },
+			{ "msg": "Horse", "msgBr": "Cavalo" },
+			{ "msg": "Man", "msgBr": "Humano" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Which of the following causes Poliomyelitis?",
+		"msgBr": "Qual destes vírus causa Poliomelite?",
+		"choices": [			
+			{ "msg": "Enterovirus", "msgBr": "Enterovírus ", "correct": true },
+			{ "msg": "Dengue virus", "msgBr": "Vírus da dengue" },
+			{ "msg": "Mumps virus", "msgBr": "Vírus da parotidite" },
+			{ "msg": "Rhabdovirus", "msgBr": "Rhabdovírus" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Which of the following became the first black President of South Africa?",
+		"msgBr": "Qual destes foi o primeiro presidente negro da África do Sul?",
+		"choices": [			
+			{ "msg": "Nelson Mandela", "msgBr": "Nelson Mandela", "correct": true },
+			{ "msg": "George Washington", "msgBr": "George Washington" },
+			{ "msg": "Jamo Kenyatta", "msgBr": "Jamo Kenyatta" },
+			{ "msg": "None of the above", "msgBr": "nenhuma das alternativas" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Where did 2018 world cup soccer tournament took place?",
+		"msgBr": "Onde foi a copa do mundo de futebol de 2018?",
+		"choices": [			
+			{ "msg": "Russia", "msgBr": "Rússia", "correct": true },
+			{ "msg": "France", "msgBr": "França" },
+			{ "msg": "Brazil", "msgBr": "brasil" },
+			{ "msg": "Japan", "msgBr": "Japan" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Where is the headquarters of European Union located?",
+		"msgBr": "Onde está localizada a sede da União Europeia?",
+		"choices": [			
+			{ "msg": "Brussels", "msgBr": "Bruxelas", "correct": true },
+			{ "msg": "Paris", "msgBr": "París" },
+			{ "msg": "London", "msgBr": "Londres" },
+			{ "msg": "Rome", "msgBr": "Roma" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Which of the following act as a channel of transmission of blood to the heart in the human body?",
+		"msgBr": "Qual destes age como um canal de transmissão do sangue ao coração no corpo humano?",
+		"choices": [			
+			{ "msg": "Veins", "msgBr": "Veias", "correct": true },
+			{ "msg": "Muscle fibres", "msgBr": "Fibras musculares" },
+			{ "msg": "Nerves", "msgBr": "Nervos" },
+			{ "msg": "Arteries", "msgBr": "Artérias" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Which of the following chemicals is useful in photography?",
+		"msgBr": "Qual destes químicos é útil nas área da fotografia?",
+		"choices": [			
+			{ "msg": "Silver bromide", "msgBr": "Brometo de prata", "correct": true },
+			{ "msg": "Potassium nitrate", "msgBr": "Nitrato de potássio" },
+			{ "msg": "Aluminium hydroxide", "msgBr": "Hidróxido de alumínio" },
+			{ "msg": "Sodium chloride", "msgBr": "Cloreto de sódio" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "When was Mona Lisa painted by Leonardo da Vinci?",
+		"msgBr": "Quando a Mona Lisa foi pintada por Leonardo da Vinci?",
+		"choices": [			
+			{ "msg": "1431", "correct": true },
+			{ "msg": "1492" },
+			{ "msg": "1504" },
+			{ "msg": "1556" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Which is the place of worship for Judoists?",
+		"msgBr": "Qual destes é o lugar de aduração para judeus?",
+		"choices": [			
+			{ "msg": "Synagogue", "msgBr": "Sinagoga", "correct": true },
+			{ "msg": "First temple", "msgBr": "Primeiro templo" },
+			{ "msg": "No church or temple", "msgBr": "Nenhuma igreja nem templo" },
+			{ "msg": "Monastery", "msgBr": "Monastério" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Which is the sacred text of Hinduism?",
+		"msgBr": "Qual destes é o texto sagrado do hinduísmo?",
+		"choices": [			
+			{ "msg": "All of the these", "msgBr": "Todos esses", "correct": true },
+			{ "msg": "The Vedas", "msgBr": "Vedas" },
+			{ "msg": "The Bhagavad Gita", "msgBr": "Bhagavad Gita" },
+			{ "msg": "The epics of the Mahabharata and the Ramayana", "msgBr": "Ramayana e Mahabharata" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Which amongst the following mammals has the highest metabolic rate in terms of oxygen consumption?",
+		"msgBr": "Qual destes mamíferos tem a maior taxa metabólica em termos de consumo de oxigênio?",
+		"choices": [			
+			{ "msg": "Mouse", "msgBr": "Rato", "correct": true },
+			{ "msg": "Dog", "msgBr": "Cachorro" },
+			{ "msg": "Rabbit", "msgBr": "Coelho" },
+			{ "msg": "Rat", "msgBr": "Ratazana" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Which is the highest literary award of the world?",
+		"msgBr": "Qual destes é o maior prêmio literário do mundo?",
+		"choices": [			
+			{ "msg": "Booker Prize", "msgBr": "Prêmio Man Booker", "correct": true },
+			{ "msg": "Nobel Prize", "msgBr": "Prêmio Nobel" },
+			{ "msg": "Pulitzer Prize", "msgBr": "Prêmio Pulitzer" },
+			{ "msg": "Magsaysay Award", "msgBr": "Prêmio Ramon Magsaysay" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Joule is the unit of...",
+		"msgBr": "Joule é uma unidade de medida de...",
+		"choices": [			
+			{ "msg": "Energy", "msgBr": "Energia", "correct": true },
+			{ "msg": "Temperature", "msgBr": "Temperatura" },
+			{ "msg": "Pressure", "msgBr": "Pressão" },
+			{ "msg": "Heat", "msgBr": "Calor" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Modern football is said to have evolved from...",
+		"msgBr": "Dizem que o futebol moderno veio da...",
+		"choices": [			
+			{ "msg": "England", "msgBr": "Inglaterra", "correct": true },
+			{ "msg": "India", "msgBr": "Índia" },
+			{ "msg": "France", "msgBr": "França" },
+			{ "msg": "Spain", "msgBr": "Espanha" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Malfunctioning of which of the following organs causes jaundice?",
+		"msgBr": "Falha de qual destes órgãos causa icterícia?",
+		"choices": [			
+			{ "msg": "Liver", "msgBr": "Fígado", "correct": true },
+			{ "msg": "Stomach", "msgBr": "Estômago" },
+			{ "msg": "Pancreas", "msgBr": "Pancrêas" },
+			{ "msg": "Kidney", "msgBr": "Rim" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Of the following foods, which one is the best source of protein?",
+		"msgBr": "Das comidas seguintes, qual é a melhor fonte de proteínas?",
+		"choices": [			
+			{ "msg": "Fish", "msgBr": "Peixe", "correct": true },
+			{ "msg": "Butter", "msgBr": "Manteiga" },
+			{ "msg": "Alface", "msgBr": "Alface" },
+			{ "msg": "Leite", "msgBr": "Leite" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "John F. Kennedy, President of USA, died on...",
+		"msgBr": "John F. Kennedy, presidente dos EUA, morreu em...",
+		"choices": [			
+			{ "msg": "1963", "correct": true },
+			{ "msg": "1964" },
+			{ "msg": "1965" },
+			{ "msg": "1966" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "The World Cup of soccer is held at intervals of...",
+		"msgBr": "A Copa do Mundo de futebol ocorre em intervalos de...",
+		"choices": [			
+			{ "msg": "4 years", "msgBr": "4 anos", "correct": true },
+			{ "msg": "3 years", "msgBr": "3 anos" },
+			{ "msg": "5 years", "msgBr": "5 anos" },
+			{ "msg": "There is no fixed interval", "msgBr": "Não há intervalo fixo" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "What's the name the instrument used to measure relative humidity?",
+		"msgBr": "Qual o nome do instrumento usado na medida de umidade relativa?",
+		"choices": [			
+			{ "msg": "Hygrometer", "msgBr": "Higrómetro", "correct": true },
+			{ "msg": "Hydrometer", "msgBr": "Hidrómetro" },
+			{ "msg": "Barometer", "msgBr": "Barômetro" },
+			{ "msg": "Thermometer", "msgBr": "Termómetro" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Nuclear power is __ thermal power.",
+		"msgBr": "Energia nuclear é __  energia térmica.",
+		"choices": [			
+			{ "msg": "cheaper than", "msgBr": "mais barato que", "correct": true },
+			{ "msg": "costlier than", "msgBr": "mais caro que" },
+			{ "msg": "They are equal", "msgBr": "Eles são iguais" },
+			{ "msg": "They cannot be related", "msgBr": "Eles não podem ser relacionados" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "The most commonly used bleaching agent is...",
+		"msgBr": "O mais usado agente de limpeza é...",
+		"choices": [			
+			{ "msg": "Chlorine", "msgBr": "Cloro", "correct": true },
+			{ "msg": "Alcohol", "msgBr": "Álcool" },
+			{ "msg": "Carbon dioxide", "msgBr": "Dióxido de carbono" },
+			{ "msg": "Sodium chloride", "msgBr": "Cloreto de sódio" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Neil Armstrong and Edwin Aldrin were the first to...",
+		"msgBr": "Neil Armstrong e Edwin Aldrin foram os primeiros a...",
+		"choices": [			
+			{ "msg": "step on the moon", "msgBr": "andar na Lua", "correct": true },
+			{ "msg": "circle the moon", "msgBr": "rodear a Lua" },
+			{ "msg": "walk in space", "msgBr": "andar no espaço" },
+			{ "msg": "journey into space", "msgBr": "se aventurar no espaço" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Leonardo da Vinci...",
+		"msgBr": "Leonardo da Vinci...",
+		"choices": [			
+			{ "msg": "All of these", "msgBr": "Todos estes", "correct": true },
+			{ "msg": "Got universal fame from his masterpiece \"Monalisa\"", "msgBr": "Ganhou a fama universal pela obra-prima \"Monalisa\"" },
+			{ "msg": "Drew models of organs such as the heart, lungs and womb", "msgBr": "Desenhou modelos de órgãos como coração, pulmões e útero" },
+			{ "msg": "Was a great italian painter, sculptor and architect", "msgBr": "Foi um grante pintor, escultor e arquiteto italiano" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Of the blood groups A, B, AB and O, which one is transfused into a person whose blood group is A?",
+		"msgBr": "Dos grupos sanguíneos A, B, AB e O, qual destes pode fazer transfusão à pessoas de sangue A?",
+		"choices": [
+			{ "msg": "Groups A and O", "msgBr": "Grupos A e O", "correct": true },
+			{ "msg": "Group A only", "msgBr": "Grupo A apenas" },
+			{ "msg": "Group B only", "msgBr": "Grupo B apenas" },
+			{ "msg": "Group AB only", "msgBr": "Grupo AB apenas" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Karl Marx's ideology advocated",
+		"msgBr": "A ideologia de Karl Marx defendia",
+		"choices": [			
+			{ "msg": "A unique classed society", "msgBr": "Uma sociedade de uma só classe", "correct": true },
+			{ "msg": "A united society", "msgBr": "Uma sociedade unida" },
+			{ "msg": "A classed society", "msgBr": "Uma sociedade de classes" },
+			{ "msg": "None of these", "msgBr": "Nenhum destes" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Light-year is related to...",
+		"msgBr": "Ano-luz é uma medida relacionada à...",
+		"choices": [			
+			{ "msg": "distance", "msgBr": "distância", "correct": true },
+			{ "msg": "energy", "msgBr": "energia" },
+			{ "msg": "speed", "msgBr": "velocidade" },
+			{ "msg": "intensity", "msgBr": "intensidade" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Between these non-conventional energy sources, which has the largest potential?",
+		"msgBr": "Dentre estas fontes de energia não convencionals, qual tem o maior potencial?",
+		"choices": [			
+			{ "msg": "Solar power", "msgBr": "Painéis solares", "correct": true },
+			{ "msg": "Wind power", "msgBr": "Turbinas eólicas" },
+			{ "msg": "Water power", "msgBr": "Hidroelétricas" },
+			{ "msg": "Biomass power", "msgBr": "Biomassa" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Jesus Christ was crucified in...",
+		"msgBr": "Jesus Cristo foi crucificado em...",
+		"choices": [			
+			{ "msg": "20 AD", "msgBr": "Ano 20 DC", "correct": true },
+			{ "msg": "4 BC", "msgBr": "Ano 4 AC" },
+			{ "msg": "4 AD", "msgBr": "Ano 4 DC" },
+			{ "msg": "1 AD", "msgBr": "Ano 1 DC" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Microphones are used to convert...",
+		"msgBr": "Microfones são usados para converter...",
+		"choices": [			
+			{ "msg": "Sound waves into electrical energy", "msgBr": "Ondas sonoras em energia elétrica", "correct": true },
+			{ "msg": "Sound waves into light rays", "msgBr": "Ondas sonoras em raios de luz" },
+			{ "msg": "Electrical energy into sound waves", "msgBr": "Energia elétrica em ondas sonoras" },
+			{ "msg": "Sound waves into magnetic currents", "msgBr": "Ondas sonoras em correntes magnéticas" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Which of the following is a non metal that remains liquid at room temperature and atmospheric pressure?",
+		"msgBr": "Qual destes é um não metal que permanece líquido em temperatura ambiente e pressão atmosférica? ",
+		"choices": [			
+			{ "msg": "Bromine", "msgBr": "Bromo", "correct": true },
+			{ "msg": "Phosphorous", "msgBr": "Fósforo" },
+			{ "msg": "Chlorine", "msgBr": "Cloro" },
+			{ "msg": "Helium", "msgBr": "Hélio" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Which of the following is used in pencils?",
+		"msgBr": "Qual destes é usado em lápis?",
+		"choices": [			
+			{ "msg": "Graphite", "msgBr": "Grafite", "correct": true },
+			{ "msg": "Silicon", "msgBr": "Silício" },
+			{ "msg": "Charcoal", "msgBr": "Carvão" },
+			{ "msg": "Phosphorous", "msgBr": "Fósforo" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "'OS' computer abbreviation usually means ?",
+		"msgBr": "O que significa a abreviação 'SO' na computação?",
+		"choices": [			
+			{ "msg": "Operating System", "msgBr": "Sistema Operacional", "correct": true },
+			{ "msg": "Order of Significance", "msgBr": "Serviço de Observação" },
+			{ "msg": "Open Software" },
+			{ "msg": "Optical Sensor", "msgBr": "Sensor Óptico" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Who is the father of Geometry?",
+		"msgBr": "Quem é o pai da geometria?",
+		"choices": [			
+			{ "msg": "Euclid", "msgBr": "Euclides", "correct": true },
+			{ "msg": "Aristotle", "msgBr": "Aristóteles" },
+			{ "msg": "Pythagoras", "msgBr": "Pitágoras" },
+			{ "msg": "Kepler", "msgBr": "Kepler" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Which scientist discovered the radioactive element Radium?",
+		"msgBr": "Qual cientista descobriu o elemento radioativo Rádio?",
+		"choices": [			
+			{ "msg": "Marie Curie", "correct": true },
+			{ "msg": "Albert Einstein" },
+			{ "msg": "Benjamin Franklin" },
+			{ "msg": "Isaac Newton" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "What Galileo Galilei invented?",
+		"msgBr": "O que Galileu Galilei inventou?",
+		"choices": [			
+			{ "msg": "Thermometer", "msgBr": "Termómetro", "correct": true },
+			{ "msg": "Barometer", "msgBr": "Barômetro" },
+			{ "msg": "Pendulum clock", "msgBr": "Relógio de pêndulo" },
+			{ "msg": "Microscope", "msgBr": "Microscópio" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "What invention caused many deaths while testing it?",
+		"msgBr": "Qual invenção causou muitas mortes enquanto era testada?",
+		"choices": [			
+			{ "msg": "Parachute", "msgBr": "Paraquedas", "correct": true },
+			{ "msg": "Ladders", "msgBr": "Escadas" },
+			{ "msg": "Dynamite", "msgBr": "Dinamite" },
+			{ "msg": "Race cars", "msgBr": "Carros de corrida" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "Who invented Gunpowder?",
+		"msgBr": "Quem inventou a pólvora?",
+		"choices": [			
+			{ "msg": "Roger Bacon", "correct": true },
+			{ "msg": "G. Ferdinand Von Zeppelin" },
+			{ "msg": "Sir Frank Whittle" },
+			{ "msg": "Leo H Baekeland" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "In which decade was the telephone invented?",
+		"msgBr": "Em que década foi inventado o telefone?",
+		"choices": [			
+			{ "msg": "1870s", "msgBr": "Década de 1870", "correct": true },
+			{ "msg": "1850s", "msgBr": "Década de 1850" },
+			{ "msg": "1860s", "msgBr": "Década de 1860" },
+			{ "msg": "1880s", "msgBr": "Década de 1880" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Plants absorb dissolved nitrates from soil and convert them into...",
+		"msgBr": "Plantas abosrvem nitratos dissolvidos do solo e convertem eles em...",
+		"choices": [			
+			{ "msg": "Nitrogen", "msgBr": "Nitrogênio", "correct": true },
+			{ "msg": "Urea", "msgBr": "Uréia" },
+			{ "msg": "Ammonia", "msgBr": "Amônia" },
+			{ "msg": "Proteins", "msgBr": "Proteínas" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "One of the following is not a function of bones.",
+		"msgBr": "Um dos seguintes não é uma das funções dos ossos.",
+		"choices": [			
+			{ "msg": "Secretion of hormones for calcium regulation", "msgBr": "Secreção de hormônios para a regulação de cálcio", "correct": true },
+			{ "msg": "Place for muscle attachment", "msgBr": "Lugar para o ligamento de músculos" },
+			{ "msg": "Protection of vital organs", "msgBr": "Proteção de órgãos vitais" },
+			{ "msg": "Production of blood corpuscles", "msgBr": "Produção de glóbulos sanguíneos" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Which is a type of Electrically-Erasable Programmable Read-Only Memory?",
+		"msgBr": "Qual é um tipo de Memória Programável de Apenas-Leitura Eletronicamente Apagável? (EEPROM)",
+		"choices": [			
+			{ "msg": "Flash Memory", "msgBr": "Memória Flash", "correct": true },
+			{ "msg": "Flange Memory", "msgBr": "Memória Flange" },
+			{ "msg": "Fury Memory", "msgBr": "Memória Fury" },
+			{ "msg": "FRAM" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Made from a variety of materials, such as carbon, which inhibits the flow of current. That is the...",
+		"msgBr": "Feito de vários materiais, como carbono, serve pra inibir o fluxo de corrente. Esse é o(a)...",
+		"choices": [			
+			{ "msg": "Resistor", "correct": true },
+			{ "msg": "Choke", "msgBr": "Bobina" },
+			{ "msg": "Inductor"},
+			{ "msg": "Capacitor" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Plants absorb most part of water needed by them through their...",
+		"msgBr": "Plantas absorvem maior parte da água necessária através do(a)(s)...",
+		"choices": [			
+			{ "msg": "root hairs", "msgBr": "fios de raíz", "correct": true },
+			{ "msg": "embryonic zone", "msgBr": "zona embrionária" },
+			{ "msg": "growing point", "msgBr": "ponto de crescimento" },
+			{ "msg": "zone of elongation", "msgBr": "zona de elongação" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "The average salinity of sea water is...",
+		"msgBr": "A salinidade média da água do mar é...",
+		"choices": [			
+			{ "msg": "3.5%", "correct": true },
+			{ "msg": "3%" },
+			{ "msg": "2.5%" },
+			{ "msg": "2%" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "How many continents are there?",
+		"msgBr": "Quantos continentes existem?",
+		"choices": [			
+			{ "msg": "Seven", "correct": true },
+			{ "msg": "Six" },
+			{ "msg": "Five" },
+			{ "msg": "Eight" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Who did paint the famous painting Guernica?",
+		"msgBr": "Quem foi o pintor do famoso quadro Guernica?",
+		"choices": [			
+			{ "msg": "Pablo Picasso", "correct": true },
+			{ "msg": "Claude Monet" },
+			{ "msg": "Vincent van Gogh" },
+			{ "msg": "Salvador Dalí" }
+		],
+		"difficulty": 2
+	},
+	{
+		"msg": "What is the first book of the Old Testament?",
+		"msgBr": "Qual é o primeiro livro do Antigo Testamento?",
+		"choices": [			
+			{ "msg": "Genesis", "correct": true },
+			{ "msg": "Exodus" },
+			{ "msg": "Proverbs", "msgBr": "Provérbios" },
+			{ "msg": "Leviticus" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "What color is cobalt?",
+		"msgBr": "Qual é a cor do cobalto?",
+		"choices": [			
+			{ "msg": "Blue", "msgBr": "Azul", "correct": true },
+			{ "msg": "White", "msgBr": "Branco" },
+			{ "msg": "Black", "msgBr": "Preto" },
+			{ "msg": "Red", "msgBr": "Vermelho" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Which planet is nearest the sun?",
+		"msgBr": "Qual é o planeta mais próximo do Sol?",
+		"choices": [			
+			{ "msg": "Mercury", "msgBr": "Mercúrio", "correct": true },
+			{ "msg": "Earth", "msgBr": "Terra" },
+			{ "msg": "Venus", "msgBr": "Vênus" },
+			{ "msg": "Mars", "msgBr": "Marte" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "Which natural substance is the hardest?",
+		"msgBr": "Qual substância natural tem maior dureza?",
+		"choices": [			
+			{ "msg": "Diamond", "msgBr": "Diamante", "correct": true },
+			{ "msg": "Titanium", "msgBr": "Titânio" },
+			{ "msg": "Silicon", "msgBr": "Silício" },
+			{ "msg": "Gold", "msgBr": "Ouro" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "What is the lightest chemical element?",
+		"msgBr": "Qual é o mais leve elemento químico?",
+		"choices": [			
+			{ "msg": "Hydrogen", "msgBr": "Hidrogênio", "correct": true },
+			{ "msg": "Helium", "msgBr": "Hélio" },
+			{ "msg": "Lithium", "msgBr": "Lítio" },
+			{ "msg": "Neon" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "What colour to do you get when you mix red and white?",
+		"msgBr": "Que cor você consegue da mistura de vermelho e branco?",
+		"choices": [			
+			{ "msg": "Pink", "msgBr": "Rosa", "correct": true },
+			{ "msg": "Red", "msgBr": "Vermelho" },
+			{ "msg": "White", "msgBr": "Branco" },
+			{ "msg": "Yellow", "msgBr": "Amarelo" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "What is the most fractured human bone?",
+		"msgBr": "Qual é o osso humano que mais é fraturado?",
+		"choices": [			
+			{ "msg": "Clavicle", "msgBr": "Clavícula", "correct": true },
+			{ "msg": "Scapula", "msgBr": "Omoplata" },
+			{ "msg": "Sternum", "msgBr": "Esterno" },
+			{ "msg": "Coccyx", "msgBr": "Cóccix" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "What is the chemical symbol for the Platinum element?",
+		"msgBr": "Qual é o símbolo quimico para o elemento Platina",
+		"choices": [			
+			{ "msg": "Pt", "correct": true },
+			{ "msg": "Pl" },
+			{ "msg": "P" },
+			{ "msg": "Pa" }
+		],
+		"difficulty": 1
+	},
+	{
+		"msg": "What is the color of giraffe tongue?",
+		"msgBr": "Qual é a cor da língua de uma girafa?",
+		"choices": [			
+			{ "msg": "Blue", "msgBr": "Azul", "correct": true },
+			{ "msg": "Pink", "msgBr": "Rosa" },
+			{ "msg": "Yellow", "msgBr": "Amarela" },
+			{ "msg": "Black", "msgBr": "Preta" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "In astronomy, what are Pallas, Vesta and Davida?",
+		"msgBr": "Na astronomia, o que são Pallas, Vesta e Davida?",
+		"choices": [			
+			{ "msg": "Asteroids", "msgBr": "Asteróides", "correct": true },
+			{ "msg": "Planets", "msgBr": "Planetas" },
+			{ "msg": "Moons", "msgBr": "Luas" },
+			{ "msg": "Stars", "msgBr": "Estrelas" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "How long is the Great Wall of China?",
+		"msgBr": "Quão longa é a Grande Muralha da China?",
+		"choices": [
+			{ "msg": "4000 miles", "msgBr": "6500 km", "correct": true },
+			{ "msg": "8000 miles", "msgBr": "13000 km" },
+			{ "msg": "20000 miles", "msgBr": "32000 km" },
+			{ "msg": "2000 miles", "msgBr": "3000 km" }
+		],
+		"difficulty": 3
+	},
+	{
+		"msg": "Which animal is on the golden Flemish flag?",
+		"msgBr": "Qual é o animal na bandeira dourada da Flanders?",
+		"choices": [
+			{ "msg": "Lion", "msgBr": "Leão", "correct": true },
+			{ "msg": "Goat", "msgBr": "Cabra" },
+			{ "msg": "Snake", "msgBr": "Cobra" },
+			{ "msg": "Tiger", "msgBr": "Tigre" }
+		],
+		"difficulty": 3
+	}
+]

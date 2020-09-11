@@ -1,0 +1,128 @@
+[
+	{
+		"set": "death",
+		"symbol": "☠️",
+		"times": [1, 5, 10, 25],
+		"desc": ["You made", "of your characters die!"],
+		"descBr": ["Você fez", "dos seus personagens morrerem!"],
+		"small": ["You killed", "characters"],
+		"smallBr": ["Você matou", "personagens"]
+	},	
+	{
+		"set": "creates",
+		"symbol": "🧬",
+		"times": [1, 5, 10, 25],
+		"desc": ["You created", "different characters!"],
+		"descBr": ["Você criou", "personagens diferentes!"],
+		"small": ["You created", "characters"],
+		"smallBr": ["Você criou", "personagens"]
+	},		
+	{
+		"set": "random",
+		"symbol": "📅",
+		"times": [10, 25, 50],
+		"desc": ["You lived through", "random life events!"],
+		"descBr": ["Você viveu por", "eventos de vida aleatórios!"],
+		"small": ["You lived", "events"],
+		"smallBr": ["Você viveu", "eventos"]
+	},	
+	{
+		"set": "years",
+		"symbol": "🎆",
+		"times": [50, 100, 200, 300],
+		"desc": ["Your characters lived a total of", "years!"],
+		"descBr": ["Seus personagens viveram um total de", "anos!"],
+		"small": ["You lived", "years"],
+		"smallBr": ["Você viveu", "anos"]
+	},
+	{
+		"set": "alcohol",
+		"symbol": "🍷",
+		"times": [5, 10, 25],
+		"desc": ["You drank alcohol a total of", "times!"],
+		"descBr": ["Você bebeu álcool um total de", "vezes!"],
+		"small": ["Drank alcohol", "times"],
+		"smallBr": ["Bebeu álcool", "vezes"]
+	},
+	{
+		"set": "drugs",
+		"symbol": "💊",
+		"times": [5, 10, 25],
+		"desc": ["You used drugs a total of", "times!"],
+		"descBr": ["Você usou drogas um total de", "vezes!"],
+		"small": ["Used drugs", "times"],
+		"smallBr": ["Usou drogas", "vezes"]
+	},
+	{
+		"set": "gamble",
+		"symbol": "🎲",
+		"times": [10, 25, 50],
+		"desc": ["You gambled a total of", "times!"],
+		"descBr": ["Você fez apostas um total de", "vezes!"],
+		"small": ["Gambled", "times"],
+		"smallBr": ["Fez apostas", "vezes"]
+	},
+	{
+		"set": "sex",
+		"symbol": "💦",
+		"times": [5, 10, 25],
+		"desc": ["You had sex a total of", "times!"],
+		"descBr": ["Você praticou sexo um total de", "vezes!"],
+		"small": ["Had sex", "times"],
+		"smallBr": ["Teve sexo", "vezes"]
+	},
+	{
+		"set": "study",
+		"symbol": "📚",
+		"times": [10, 20, 30],
+		"desc": ["You spend a total of", "nights studying!"],
+		"descBr": ["Você passou um total de", "noites estudando!"],
+		"small": ["Studied", "times"],
+		"smallBr": ["Estudou", "vezes"]
+	},
+	{
+		"set": "work",
+		"symbol": "🔨",
+		"times": [10, 20, 30],
+		"desc": ["You worked hard a total of", "times!"],
+		"descBr": ["Você trabalhou duro um total de", "vezes!"],
+		"small": ["Worked", "times"],
+		"smallBr": ["Trabalhou", "vezes"]
+	},
+	{
+		"set": "shop",
+		"symbol": "🛍️",
+		"times": [10, 20, 30],
+		"desc": ["You went shopping a total of", "times!"],
+		"descBr": ["Você foi fazer compras um total de", "vezes!"],
+		"small": ["Shopped", "times"],
+		"smallBr": ["Fez compras", "vezes"]
+	},
+	{
+		"set": "sick",
+		"symbol": "🦠",
+		"times": [3, 5, 10],
+		"desc": ["You got sick a total of", "times!"],
+		"descBr": ["Você ficou doente um total de", "vezes!"],
+		"small": ["Got sick", "times"],
+		"smallBr": ["Ficou doente", "vezes"]
+	},
+	{
+		"set": "treated",
+		"symbol": "👨‍⚕️",
+		"times": [3, 5, 10],
+		"desc": ["You got cured a total of", "times!"],
+		"descBr": ["Você foi curado um total de", "vezes!"],
+		"small": ["Cured", "times"],
+		"smallBr": ["Curado", "vezes"]
+	},
+	{
+		"set": "child",
+		"symbol": "🧒",
+		"times": [1, 3, 5],
+		"desc": ["You had a total of", "children!"],
+		"descBr": ["Você teve um total de", "filhos!"],
+		"small": ["Had", "children"],
+		"smallBr": ["Teve", "filhos"]
+	}
+]

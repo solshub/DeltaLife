@@ -1,0 +1,58 @@
+[
+	{
+		"set": "alcohol",
+		"msg": "Alcohol",
+		"msgBr": "álcool",
+		"advice": "drink",
+		"adviceBr": "beber",
+		"symbol": "🍷"
+	},
+	{
+		"set": "drugs",
+		"msg": "Drugs",
+		"msgBr": "Drogas",
+		"advice": "do drugs",
+		"adviceBr": "se drogar",
+		"symbol": "💊"
+	},
+	{
+		"set": "gamble",
+		"msg": "Gambling",
+		"msgBr": "Apostas",
+		"advice": "gamble",
+		"adviceBr": "apostar",
+		"symbol": "🎲"
+	},
+	{
+		"set": "sex",
+		"msg": "Sex",
+		"msgBr": "Sexo",
+		"advice": "have sex",
+		"adviceBr": "transar",
+		"symbol": "💦"
+	},
+	{
+		"set": "study",
+		"msg": "Studying",
+		"msgBr": "Estudar",
+		"advice": "study",
+		"adviceBr": "estudar",
+		"symbol": "📚"
+	},
+	{
+		"set": "work",
+		"msg": "Working",
+		"msgBr": "Trabalhar",
+		"advice": "work",
+		"adviceBr": "trabalhar",
+		"symbol": "🔨"
+	},
+	{
+		"set": "shop",
+		"msg": "Shoppping",
+		"msgBr": "Fazer compras",
+		"advice": "go shopping",
+		"adviceBr": "fazer compras",
+		"symbol": "🛍️"
+	}
+]

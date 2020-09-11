@@ -1,0 +1,80 @@
+[
+	{
+		"relate": "acquaintances",
+		"relateBr": "conhecidos",
+		"class": "friend",
+		"value": 0
+	},
+	{
+		"relate": "friends",
+		"relateBr": "amigos",
+		"class": "friend",
+		"value": 25
+	},
+	{
+		"relate": "good friends",
+		"relateBr": "bons amigos",
+		"class": "friend",
+		"value": 50
+	},
+	{
+		"relate": "best friends",
+		"relateBr": "melhores amigos",
+		"class": "friend",
+		"value": 75
+	},
+	{
+		"relate": "best friends forever",
+		"relateBr": "melhores amigos pra sempre",
+		"class": "friend",
+		"value": 100
+	},
+	{
+		"relate": "friendly rivals",
+		"relateBr": "rivais amigáveis",
+		"class": "friend",
+		"value": -25
+	},
+	{
+		"relate": "rivals",
+		"relateBr": "rivais",
+		"class": "friend",
+		"value": -50
+	},
+	{
+		"relate": "enemies",
+		"relateBr": "inimigos",
+		"class": "friend",
+		"value": -75
+	},
+	{
+		"relate": "nemesis",
+		"relateBr": "némesis",
+		"class": "friend",
+		"value": -100
+	},
+	{
+		"relate": "lovebirds",
+		"relateBr": "pombinhos",
+		"class": "love",
+		"value": 25
+	},
+	{
+		"relate": "inseparable",
+		"relateBr": "inseparáveis",
+		"class": "love",
+		"value": 50
+	},
+	{
+		"relate": "lovers",
+		"relateBr": "amantes",
+		"class": "love",
+		"value": 75
+	},
+	{
+		"relate": "soulmates",
+		"relateBr": "almas gêmeas",
+		"class": "love",
+		"value": 100
+	}
+]
